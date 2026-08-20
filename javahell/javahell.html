@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>evil js sandbox</title>
+    <link href="/newstyley.css" rel="stylesheet" type="text/css" media="all">
+    <style id="style">
+      .themebutton {height: 100px; width: 100%; color: black; border: 5px solid black; font-size: 40px;}
+      .themeswatch {height: 60%; width: 200px; border: 5px solid var(--genericborder);}
+    </style>
+  </head>
+<body>
+  <div class="framey" style="display: flex; height: 98vh; align-items: center; flex-direction: column;">
+    <div class="framey" style="display: flex; height: 50%; width: 70%; align-items: center; flex-direction: column;">
+    
+      <div class="framey" style="height: 50%; width: 100%; align-items: center; gap: 20px;">
+        <div class="framey themeswatch" style="background: var(--musicbg)"></div>
+        <div class="framey themeswatch" style="background: var(--blogbg)"></div>  
+        <div class="framey themeswatch" style="background: var(--morebg)"></div>  
+        <div class="framey themeswatch" style="background: var(--heybg)"></div>
+        <div class="framey themeswatch" style="background: var(--spotlightbg)"></div>
+        <div class="framey themeswatch" style="background: var(--buttonsbg)"></div>  
+        <div class="framey themeswatch" style="background: var(--updatesbg)"></div>  
+        <div class="framey themeswatch" style="background: var(--otherbg)"></div>
+      </div>
+      
+      <div class="framey" style="height: 50%; width: 100%; align-items: center; gap: 20px;">
+        <div class="framey" style="gap: 20px; width: 100%;">
+          <button onclick="dogteethTheme(); themeChanger();" class="themebutton">
+            Classic </button>
+          <button onclick="carnelianTheme(); themeChangerSimple();" class="themebutton">
+            Carnelian </button>
+          <button onclick="iceTheme(); themeChangerSimple();" class="themebutton">
+            Ice </button>
+          <button onclick="fruityTheme(); themeChangerSimple();" class="themebutton">
+            Fruity </button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  <!-- <script src="/javahell/scripts/storagetest.js"></script> -->
+  <script src="/javahell/scripts/themetest.js"></script>
+</body>
+</html> 

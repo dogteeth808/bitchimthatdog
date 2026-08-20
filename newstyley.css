@@ -1,0 +1,99 @@
+    /*  @  @  @@@@  @@@@  @@@@  @@@@  @@@@  @     @@@@  @@@@  */
+   /*  @  @  @  @  @  @    @   @  @  @  @  @     @     @     */
+  /*  @  @  @@@@  @@@     @   @@@@  @@@   @     @@@   @@@@  */
+ /*   @ @  @  @  @ @     @   @  @  @  @  @     @        @  */
+/*    @   @  @  @  @  @@@@  @  @  @@@@  @@@@  @@@@  @@@@  */
+
+:root {
+  /* box backgrounds! */
+  --musicbg: rgba(1,143,20,1);
+  --blogbg: rgba(246,105,187,1);
+  --morebg: rgba(243,217,46,1);
+  --heybg: rgba(253,38,38,1);
+  --spotlightbg: rgba(154,138,235,1);
+  --leftbarbg: rgba(154,138,235,1);
+  --updatesbg: rgba(243,217,46,1);
+  --rightbarbg: rgba(1,143,20,1);
+  --genericborder: rgba(0,0,0,0.4); }
+  
+/* inherents! */
+/*
+*/
+
+body { font-family: "Nunito"; src: url(https://d0gteeeth.neocities.org/Nunito_Bold.ttf);
+  margin: 0px; transform: rotate(0deg);
+  background-color: white; color: rgba(0,0,0,0.7); box-sizing: border-box; background-position: 10% 0%;
+  background-size: 100vw 100vh;
+  background-image:url(https://d0gteeeth.neocities.org/assets/backgrounds/gradient2.jpg); }
+
+body::before{ content: ""; position: fixed; z-index: -1; margin: auto;
+  top: -7%; left: -30%; width: 400%; height: 400vh; transform: rotate(4deg); 
+  background-image: url(https://d0gteeeth.neocities.org/assets/backgrounds/dogteethfragment2.png);  
+}
+h1{margin: 0px; font-size: 20px;}
+h2{margin: 0px; font-size: 15px;}
+
+/* generics */
+/*
+*/
+  
+/*generic frame setting. used as many layers*/
+.framey { position: relative; display: flex; justify-content: space-evenly;
+  border-radius: 10px; }
+  
+/*space between frames*/
+.gapy { gap: 15px; }
+
+/*for the "outer" element of the visible frame, makes content inside feel like it fits*/
+.outerframe { box-sizing: border-box; flex-direction: column; justify-content: flex-start; 
+  border: 5px solid var(--genericborder); }
+.paddedframe { box-sizing: border-box; justify-content: flex-start; flex-direction: column;
+  padding: 10px; gap: 10px; }
+  
+/*makes element scrollable vertically*/
+.scrolly { overflow-y: auto; height: 95%; }
+
+/* cool fadeout on a scrolly */
+.fadey { position: absolute; background-position: center bottom; background-repeat: no-repeat; 
+  z-index: 2; top: 0; left: 0; width: 100%; height: 100%; background-size: 100% 50px; pointer-events: none; }
+  
+.titleplate {
+  width: 100%; font-size: 1.5em; 
+  text-align: start; 
+  border-bottom: 2px solid var(--genericborder); border-radius: 0px; }
+  
+.candy { position: absolute; z-index: 2; }
+.hoverpop { transition: transform .1s; }
+.hoverpop:hover { -ms-transform: scale(1.05); -webkit-transform: scale(1.05); transform: scale(1.05); transition: transform 0.15s; }
+.title {  }
+
+/* specifics */
+/*
+*/
+
+.buttons {}
+.buttons > li { height: 40px; margin-bottom: 0px; }
+.buttons > li > a > img { border: 2px solid var(--genericborder); }
+
+.themebutton { flex-grow: 1; width: 100%; flex-direction: column; justify-content: space-evenly; }
+.themebutton > div { width: 100%; justify-content: flex-start; font-size: 13px; gap: 3%; }
+.themebutton > div > button { width: 10%; aspect-ratio: 1 / 1; background: var(--genericborder); border: 3px solid var(--genericborder);}
+
+.miscmenu-icon { width: 30%; height: 100%; display: flex; transform: rotate(20deg); }
+.miscmenu-icon > a > img { width: 100%; }
+
+/*box in which an "update" is*/
+.update {
+  flex-direction: column; 
+  border-bottom: 2px solid var(--genericborder); border-radius: 0px;
+  box-sizing: border-box;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 14px; }
+.update > span { text-align: start; }
+.updateTimestamp { font-size: 0.7em; }
+  
+
+
+
+
