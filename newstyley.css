@@ -15,11 +15,6 @@
   --updatesbg: rgba(243,217,46,1);
   --rightbarbg: rgba(1,143,20,1);
   --genericborder: rgba(0,0,0,0.4); }
-
-@font-face {
-  font-family: Nunito; /* set name */
-  src: url(https://d0gteeeth.neocities.org/Nunito_Bold.ttf); /* url of the font */
-}
   
 /* inherents! */
 /*
