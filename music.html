@@ -3,9 +3,287 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Page</title>
-    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+    <title>epic music text zone</title>
+    <link href="/newstyley.css" rel="stylesheet" type="text/css" media="all">
+    <link href="/assets/icons/favicon.png" rel="icon" type="text/css">
   </head>
-  <body>
+  <body onload="compileMusicEntriesReal();" style="overflow: hidden;">
+  
+  <div style="display: flex; height: 100vh;">
+  
+    <!-- 1 ( our main 4:3 viewport) -->
+    <div class="framey pageframe" style="flex-direction: row; background-color: red; padding: 1.5vh; gap: 1vh;">
+        
+        <!-- 2 ( Nav Bar ) -->
+        <div class="framey gapy" style="height: 100%; width: 23%; flex-direction: column; background-color: green;">
+        </div>
+        
+        <!-- 2 ( Song List! ) -->
+        <div id="allList" class="framey scrolly musiclist" style="width: 77%; height: 100%; display: flex; flex-direction: column; justify-content: flex-start;">
+          
+          <!-- 3 ( A Song Entry ) -->
+          <div>
+              <a href="https://soundcloud.com/nourishedbytime/sets/erotic-probiotic-2-1">
+              <!-- a "shell" for the real content -->
+                  <div class="gapy musicEntryShell">
+                      <!-- 4 ( A Song Image ) -->
+                      <div style="aspect-ratio: 1/1; height: 100%;">
+                          <img src="/assets/squarecovers/trustfall.jpg" style="height: 100%;">
+                      </div>
+                        
+                      <!-- 4 ( Text Field! ) -->
+                      <div class="musicEntryText">
+                          <!-- date -->
+                          <div style="display: block; width: 100%; height: 0%; text-align: end; line-height: 0.9;">07/25/2026</div>
+                          <!-- alias -->
+                          <div style="padding-bottom: 0.5%; justify-content: center; height: 30%;">
+                              <div style="width: 100%; font-size: 110%; text-align: start;">mynnteatwo (alias) </div>
+                          </div>
+                          <!-- title -->
+                          <div style="padding-bottom: 0.5%;">
+                              <div style="font-size: 220%; line-height: 0.9em; margin-left: -0.2%;">GRILLMASTER2K</div>
+                          </div>
+                          <!-- tags -->
+                          <div style="flex-grow: 1; justify-content: flex-end;">
+                              <div style="">Beat Battle (type + tags)</div>
+                          </div>
+                      </div>
+                  </div>
+              </a>
+ 
+          </div>
+          
+          <!-- 3 ( A Song Entry ) -->
+          <div>
+              <a href="https://soundcloud.com/nourishedbytime/sets/erotic-probiotic-2-1">
+              <!-- a "shell" for the real content -->
+              <div class="gapy musicEntryShell">
+                  <!-- 4 ( A Song Image ) -->
+                  <div style="aspect-ratio: 1/1; height: 100%;">
+                      <img src="/assets/squarecovers/trustfall.jpg" style="height: 100%;">
+                  </div>
+                    
+                  <!-- 4 ( Text Field! ) -->
+                  <div class="musicEntryText">
+                      <!-- date -->
+                      <div style="display: block; width: 100%; height: 0%; text-align: end; line-height: 0.9;">05/16/2026</div>
+                      <!-- alias -->
+                      <div style="padding-bottom: 0.5%; justify-content: center; height: 30%;">
+                          <div style="width: 100%; font-size: 110%; text-align: start;">dogteeth (Originally by limitrr) (alias + alias2) </div>
+                      </div>
+                      <!-- title -->
+                      <div style="padding-bottom: 0.5%;">
+                          <div style="font-size: 220%; line-height: 0.9em; margin-left: -0.2%;">i can neverrr</div>
+                      </div>
+                      <!-- tags -->
+                      <div style="flex-grow: 1; justify-content: flex-end;">
+                          <div style="">Cover // Ultrapop (type + tags)</div>
+                      </div>
+                  </div>
+              </div>
+              </a>
+
+          </div>
+          
+          <!-- 3 ( A Song Entry ) -->
+          <div>
+              <!-- a "shell" for the real content -->
+              <div class="gapy musicEntryShell">
+                  <!-- 4 ( A Song Image ) -->
+                  <div style="aspect-ratio: 1/1; height: 100%;">
+                      <img src="/assets/squarecovers/trustfall.jpg" style="height: 100%;">
+                  </div>
+                    
+                  <!-- 4 ( Text Field! ) -->
+                  <div class="musicEntryText">
+                      <!-- date -->
+                      <div style="display: block; width: 100%; height: 0%; text-align: end; line-height: 0.9;">05/13/2023</div>
+                      <!-- alias -->
+                      <div style="padding-bottom: 0.5%; justify-content: center; height: 30%;">
+                          <div style="width: 100%; font-size: 110%; text-align: start;">mynntea (alias) </div>
+                      </div>
+                      <!-- title -->
+                      <div style="padding-bottom: 0.5%;">
+                          <div style="font-size: 220%; line-height: 0.9em; margin-left: -0.2%;">bladee bowling</div>
+                      </div>
+                      <!-- tags -->
+                      <div style="flex-grow: 1; justify-content: flex-end;">
+                          <div style="">Mashup (PvZ, bladee, brakence) (type, alias2, tags)</div>
+                      </div>
+                  </div>
+              </div>
+              
+              <!-- a sneaky border >:3 -->
+              <div style="border-bottom: 2px solid var(--genericborder); margin: auto; width: 95%;"></div>
+          </div>
+          
+          <!-- 3 ( A Song Entry ) -->
+          <div>
+              <!-- a "shell" for the real content -->
+              <div class="gapy musicEntryShell">
+                  <!-- 4 ( A Song Image ) -->
+                  <div style="aspect-ratio: 1/1; height: 100%;">
+                      <img src="/assets/squarecovers/trustfall.jpg" style="height: 100%;">
+                  </div>
+                    
+                  <!-- 4 ( Text Field! ) -->
+                  <div class="musicEntryText">
+                      <!-- date -->
+                      <div style="display: block; width: 100%; height: 0%; text-align: end; line-height: 0.9;">11/29/2024</div>
+                      <!-- alias -->
+                      <div style="padding-bottom: 0.5%; justify-content: center; height: 30%;">
+                          <div style="width: 100%; font-size: 110%; text-align: start;">mynntea (alias) </div>
+                      </div>
+                      <!-- title -->
+                      <div style="padding-bottom: 0.5%;">
+                          <div style="font-size: 220%; line-height: 0.9em; margin-left: -0.2%;">waow hes realy in the thick of it</div>
+                      </div>
+                      <!-- tags -->
+                      <div style="flex-grow: 1; justify-content: flex-end;">
+                          <div style="">Remix (KSI, Trippie Redd) (type, alias2, tags)</div>
+                      </div>
+                  </div>
+              </div>
+              
+              <!-- a sneaky border >:3 -->
+              <div style="border-bottom: 2px solid var(--genericborder); margin: auto; width: 95%;"></div>
+          </div>
+          
+          <!-- 3 ( A Song Entry ) -->
+          <div>
+              <!-- a "shell" for the real content -->
+              <div class="gapy musicEntryShell">
+                  <!-- 4 ( A Song Image ) -->
+                  <div style="aspect-ratio: 1/1; height: 100%;">
+                      <img src="/assets/squarecovers/trustfall.jpg" style="height: 100%;">
+                  </div>
+                    
+                  <!-- 4 ( Text Field! ) -->
+                  <div class="musicEntryText">
+                      <!-- date -->
+                      <div style="display: block; width: 100%; height: 0%; text-align: end; line-height: 0.9;">03/30/2025</div>
+                      <!-- alias -->
+                      <div style="padding-bottom: 0.5%; justify-content: center; height: 30%;">
+                          <div style="width: 100%; font-size: 110%; text-align: start;">mentholgrrl, a lot of people (alias, alias2) </div>
+                      </div>
+                      <!-- title -->
+                      <div style="padding-bottom: 0.5%;">
+                          <div style="font-size: 220%; line-height: 0.9em; margin-left: -0.2%;">THE TBD TELEPHONE</div>
+                      </div>
+                      <!-- tags -->
+                      <div style="flex-grow: 1; justify-content: flex-end;">
+                          <div style="">Collab (Telephone) // to be determined. (type + alias2 + tags)</div>
+                      </div>
+                  </div>
+              </div>
+              
+              <!-- a sneaky border >:3 -->
+              <div style="border-bottom: 2px solid var(--genericborder); margin: auto; width: 95%;"></div>
+          </div>
+          
+          <!-- 3 ( A Song Entry ) -->
+          <div>
+              <!-- a "shell" for the real content -->
+              <div class="gapy musicEntryShell">
+                  <!-- 4 ( A Song Image ) -->
+                  <div style="aspect-ratio: 1/1; height: 100%;">
+                      <img src="/assets/squarecovers/trustfall.jpg" style="height: 100%;">
+                  </div>
+                    
+                  <!-- 4 ( Text Field! ) -->
+                  <div class="musicEntryText">
+                      <!-- date -->
+                      <div style="display: block; width: 100%; height: 0%; text-align: end; line-height: 0.9;">04/23/2026</div>
+                      <!-- alias -->
+                      <div style="padding-bottom: 0.5%; justify-content: center; height: 30%;">
+                          <div style="width: 100%; font-size: 110%; text-align: start;">socks. + dogteeth (alias2 + alias)</div>
+                      </div>
+                      <!-- title -->
+                      <div style="padding-bottom: 0.5%;">
+                          <div style="font-size: 220%; line-height: 0.9em; margin-left: -0.2%;">KIT KAT</div>
+                      </div>
+                      <!-- tags -->
+                      <div style="flex-grow: 1; justify-content: flex-end;">
+                          <div style="">Collab(type + tags)</div>
+                      </div>
+                  </div>
+              </div>
+              
+              <!-- a sneaky border >:3 -->
+              <div style="border-bottom: 2px solid var(--genericborder); margin: auto; width: 95%;"></div>
+          </div>
+          
+          <!-- 3 ( A Song Entry ) -->
+          <div>
+              <!-- a "shell" for the real content -->
+              <div class="gapy musicEntryShell">
+                  <!-- 4 ( A Song Image ) -->
+                  <div style="aspect-ratio: 1/1; height: 100%;">
+                      <img src="/assets/squarecovers/trustfall.jpg" style="height: 100%;">
+                  </div>
+                    
+                  <!-- 4 ( Text Field! ) -->
+                  <div class="musicEntryText">
+                      <!-- date -->
+                      <div style="display: block; width: 100%; height: 0%; text-align: end; line-height: 0.9;">04/01/2026</div>
+                      <!-- alias -->
+                      <div style="padding-bottom: 0.5%; justify-content: center; height: 30%;">
+                          <div style="width: 100%; font-size: 110%; text-align: start;">iJello Paroetdy S (alias2) </div>
+                      </div>
+                      <!-- title -->
+                      <div style="padding-bottom: 0.5%;">
+                          <div style="font-size: 220%; line-height: 0.9em; margin-left: -0.2%;">EP3</div>
+                      </div>
+                      <!-- tags -->
+                      <div style="flex-grow: 1; justify-content: flex-end;">
+                          <div style="">Collab // EP // April Fools (type + tags)</div>
+                      </div>
+                  </div>
+              </div>
+              
+              <!-- a sneaky border >:3 -->
+              <div style="border-bottom: 2px solid var(--genericborder); margin: auto; width: 95%;"></div>
+          </div>
+          
+          <!-- 3 ( A Song Entry ) -->
+          <div>
+              <!-- a "shell" for the real content -->
+              <div class="gapy musicEntryShell">
+                  <!-- 4 ( A Song Image ) -->
+                  <div style="aspect-ratio: 1/1; height: 100%;">
+                      <img src="/assets/squarecovers/trustfall.jpg" style="height: 100%;">
+                  </div>
+                    
+                  <!-- 4 ( Text Field! ) -->
+                  <div class="musicEntryText">
+                      <!-- date -->
+                      <div style="display: block; width: 100%; height: 0%; text-align: end; line-height: 0.9;">04/01/2026</div>
+                      <!-- alias -->
+                      <div style="padding-bottom: 0.5%; justify-content: center; height: 30%;">
+                          <div style="width: 100%; font-size: 110%; text-align: start;">dogteeth (alias)</div>
+                      </div>
+                      <!-- title -->
+                      <div style="padding-bottom: 0.5%;">
+                          <div style="font-size: 220%; line-height: 0.9em; margin-left: -0.2%;">SHARKATTACK</div>
+                      </div>
+                      <!-- tags -->
+                      <div style="flex-grow: 1; justify-content: flex-end;">
+                          <div style="">Original // Ultrapop (type + tags)</div>
+                      </div>
+                  </div>
+              </div>
+              
+              <!-- a sneaky border >:3 -->
+              <div style="border-bottom: 2px solid var(--genericborder); margin: auto; width: 95%;"></div>
+          </div>
+          
+        </div>
+    
+    </div>
+    
+  </div>
+  
+  <script src="/javahell/scripts/bigfuckformatter.js"></script>
+  <!-- <script src="/javahell/scripts/oneko.js"></script> -->
   </body>
 </html>

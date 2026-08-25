@@ -31,11 +31,26 @@ const musicEntries = [
 ]
 
 function musicEntryCompile() {
-  let entry = "";
   // const dateSplit = musicEntries[x].date.split("/");
   // let dateInt = dateSplit[3] + dateSplit[1] + dateSplit[2]
   
+  // let depositDump = [
+  //    {boolean:"false",id:"collabList",content:"",},
+  //    {boolean:"false",id:"coverList",content:"",},
+  //    {boolean:"false",id:"beatBattleList",content:"",},
+  //    {boolean:"true",id:"allList",content:"",},]
+      
+  let depositDump = {
+      "Collab": {id:"collabList", content:""},
+      "Cover": {id:"coverList", content:""},
+      "Beat Battle": {id:"beatBattleList", content:""},
+      all: {id:"allList", content:""},
+  }
+ 
+  
   for (let x = 0; x < musicEntries.length; x++) {
+    let entry = "";
+    
     entry += musicEntries[x].title + "<br>" + musicEntries[x].type;
     
     if (musicEntries[x].type == "Collab" || musicEntries[x].type == "Cover") {
@@ -48,10 +63,26 @@ function musicEntryCompile() {
       entry += " // " + musicEntries[x].tags;
     }
     
-    entry += "<br>" + musicEntries[x].date + "<br><br>"
+    entry += "<br>" + musicEntries[x].date + "<br><br>";
     
+    depositDump[musicEntries[x].type].content += entry;
+    depositDump.all.content += entry;
+    
+  }
+  
+  //"type" is a VARIABLE it DOESNT MEAN ANYTHING
+  for (let type in depositDump) {
+    let element = document.getElementById(depositDump[type].id);
+    if (element !== null) {
+      element.innerHTML = depositDump[type].content;
     }
-  document.getElementById("entry").innerHTML = entry;
+  }
+  
+  // for (let x = 0; x < depositDump.length; x++) {
+  //   if (document.getElementById(depositDump[x].id) !== null) {
+  //     document.getElementById(depositDump[x].id).innerHTML = depositDump[x].content;
+  //   }
+  // }
 }
 
 function musicEntryDateDescend() { 
@@ -60,9 +91,10 @@ function musicEntryDateDescend() {
 }
 
 function musicEntrySort() {
-  
   musicEntryCompile()
 }
+
+
 
 
 
