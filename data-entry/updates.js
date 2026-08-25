@@ -8,6 +8,7 @@ const updateEntries = [
 {date:"2026 08 06", text:`Big one today! Over the past couple days I've compiled a fun image collage for the "about" section, and now it's actually on the website! Yippee! So many PNGs oh my great gravy.` },
 {date:"2026 08 07", text:`Added the other titles as well as the background to the test draft.` },
 {date:"2026 08 18", text:`Added the "section icons" to the "& More!" section! It's been a hassle designing a shape that I think will work, but this current interation seems workable with maybe a lil background asset :3` },
+{date:"2026 08 24", text:`HUGE one today!!! A rudimentary version of the music section is online. I wrote some JavaScript to turn a list of data into a list of clickable song entries! And I can change the type of list it generates in no time at all! Go me!!!` },
 ]
 
 function updatesCompileIndex() {
