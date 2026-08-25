@@ -70,7 +70,7 @@ a { text-decoration: none; }
 .candy { position: absolute; z-index: 2; }
 .hoverpop { transition: transform .1s; }
 .hoverpop:hover { -ms-transform: scale(1.05); -webkit-transform: scale(1.05); transform: scale(1.05); transition: transform 0.15s; }
-.title {  }
+.title { width: 100%; } /* this is a nothing burger so they'll stop bitching at me. idr what this class was for */
 
 /* "template" for a 4/3 style page, like the homepage, or music. provides a canvas for the rest of the elements */
 .pageframe { height: 96vh; margin: auto; aspect-ratio: 4 / 3; justify-content: flex-start; box-sizing: border-box; }
