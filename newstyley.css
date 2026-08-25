@@ -25,7 +25,7 @@
 /*
 */
 
-body { font-family: "Nunito";
+body { font-family: "Nunito"; src: url(Nunito_Bold.ttf);
   margin: 0px; transform: rotate(0deg);
   background-color: white; color: rgba(0,0,0,0.7); box-sizing: border-box; background-position: 10% 0%;
   background-size: 100vw 100vh;
