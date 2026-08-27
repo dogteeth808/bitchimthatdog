@@ -75,32 +75,39 @@ a { text-decoration: none; }
 /* "template" for a 4/3 style page, like the homepage, or music. provides a canvas for the rest of the elements */
 .pageframe { height: 96vh; margin: auto; aspect-ratio: 4 / 3; justify-content: flex-start; box-sizing: border-box; }
 
-/* specifics */
+/* SPECIFICS */
 /*
 */
 
+/* this is the row of buttons on the main page! the 88x31s */
 .buttons { width: 100%; display: grid; list-style: none; grid-template-columns: repeat(2, 1fr); padding: 0; justify-content: center; column-gap: 0px; margin: auto;}
 .buttons > li { margin-bottom: 0px; display: flex; justify-content: center;}
 .buttons > li > a {display: flex; justify-content: center;}
 .buttons > li > a > img { border: 2px solid var(--genericborder); width: 94%;}
 
+/* this is the tickbox on the theme switcher on the main page */
 .themebutton { flex-grow: 1; width: 100%; flex-direction: column; justify-content: space-evenly; }
 .themebutton > div { width: 100%; justify-content: flex-start; font-size: 13px; gap: 3%; }
 .themebutton > div > button { width: 10%; aspect-ratio: 1 / 1; background: var(--genericborder); border: 3px solid var(--genericborder);}
 
 /* variables largely used in the music list generation script! very epic */
-.musiclist { padding-left: 0.4%; padding-right: 0.4%; }
-.musiclist > div { width: 100%; height: 16%; display: flex; flex-direction: column; }
-.musiclist > div > a { height: 102%; width: 100%; }
-    .musicEntryShell { height: 100%; display: flex; flex-direction: row; padding: 1.5%; box-sizing: border-box; border: 5px solid var(--genericborder); border-bottom: 0px solid var(--genericborder); border-radius: 25px; background-color: rgb(156, 156, 156);}
+.musiclist { padding-left: 0.4%; padding-right: 0.4%; display: flex; flex-direction: column; justify-content: flex-start; border-radius: 4%; height: 100%;}
+.musiclist > div { width: 100%; height: 18%; display: flex; flex-direction: column; }
+.musiclist > div > a { height: 100%; width: 100%; }
+    .musicEntryShell { height: 100%; display: flex; flex-direction: row; padding: 1.5%; box-sizing: border-box; border: 5px solid rgba(169, 0, 46, 0.5); border-bottom: 0px solid var(--genericborder); border-radius: 25px; background-color: rgb(255,127,168);}
     .musicEntryShell:hover { -ms-transform: scale(1.01); -webkit-transform: scale(1.01); transform: scale(1.01); transition: transform 0.15s; }
         .musicEntryText { width: 100%; display: flex; flex-direction: column; }
             .musicEntryText > div { width: 100%; display: flex; flex-direction: column; }
 
+/* guidelines for the cute "TV" "LeapPad" shape on the music page! */
+.funborders { position: absolute; background-color: rgb(254,78,126); z-index: -1; border-radius: 100%; }
+/*background-color: rgb(254,78,126); */
+
+/* the icons on the "& More!" section on the main page*/
 .miscmenu-icon { width: 30%; height: 100%; display: flex; transform: rotate(20deg); }
 .miscmenu-icon > a > img { width: 100%; }
 
-/*box in which an "update" is*/
+/*box in which an "update" in the updates bar is*/
 .update {
   flex-direction: column; 
   border-bottom: 2px solid var(--genericborder); border-radius: 0px;
@@ -110,6 +117,18 @@ a { text-decoration: none; }
   font-size: 14px; }
 .update > span { text-align: start; }
 .updateTimestamp { font-size: 0.7em; }
+
+/* code taken from "Button 91" off this website - https://getcssscan.com/css-buttons-examples // yeah it's been modified, but i still don't fully understand radial gradient shenanigans so idk bro */
+.plasticButton {
+  flex-grow: 1;
+  color: #fff;
+  width: 100%; padding: 10px 15px; font-size: 28px; font-family: "Nunito"; src: url(https://d0gteeeth.neocities.org/Nunito_Bold.ttf);
+  border: 0; border-radius: 100% 50%;
+  background-color: rgb(255,127,168);
+  background-image: radial-gradient(93% 87% at 87% 89%, rgba(0, 0, 0, 0.03) 0%, transparent 86.18%), radial-gradient(66% 66% at 26% 20%, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 69.79%, rgba(255, 255, 255, 0) 100%);
+  box-shadow: inset -3px -3px 9px rgba(255, 255, 255, 0.1), inset 0px 3px 9px rgba(255, 255, 255, 0.1), inset 0px 1px 1px rgba(255, 255, 255, 0.1), inset 0px -8px 36px rgba(0, 0, 0, 0.2), inset 0px 1px 5px rgba(255, 255, 255, 0.2), 2px 2px 10px rgba(0, 0, 0, 0.3);
+  user-select: none; -webkit-user-select: none; touch-action: manipulation; cursor: pointer;
+}
   
 
 

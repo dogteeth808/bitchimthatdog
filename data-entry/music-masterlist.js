@@ -2366,7 +2366,11 @@ function compileMusicEntriesReal() {
   
 }
   
-  
+function typeSwitcher() {
+  // 1. identify the ID of the button pressed
+  // 2. print HTML within the "musicList-Rewriter" shell, with the new ID as the correct one to prompt a specific music roster generation
+  // 3. run compileMusicEntriesReal()
+}
   
   
   
