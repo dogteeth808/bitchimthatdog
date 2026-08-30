@@ -100,7 +100,7 @@ a { text-decoration: none; }
             .musicEntryText > div { width: 100%; display: flex; flex-direction: column; }
 
 /* guidelines for the cute "TV" "LeapPad" shape on the music page! */
-.funborders { position: absolute; background-color: rgb(254,78,126); z-index: -1; border-radius: 100%; }
+.funborders { position: absolute; background-color: rgb(254,78,126); z-index: -1; border-radius: 100%; border: solid 20px rgb(0, 250, 255); box-sizing: border-box;}
 /*background-color: rgb(254,78,126); */
 
 /* the icons on the "& More!" section on the main page*/
