@@ -34,8 +34,8 @@ h1{margin: 0px; font-size: 18px;}
 h2{margin: 0px; font-size: 14px;}
 
 a:link { color: rgba(0,0,0,0.8); }
-/* a:visited { color: rgba(0,0,0,0.7); }
-a:hover { color: rgba(0,0,0,0.7); cursor: url("https://mentholgrrl.neocities.org/imageassets/grrl_cursor_v2.png"), pointer;} */
+a:visited { color: rgba(0,0,0,0.8); }
+a:hover { color: rgba(0,0,0,0.8); cursor: url("https://mentholgrrl.neocities.org/imageassets/grrl_cursor_v2.png"), pointer;}
 a { text-decoration: none; }
 
 /* generics */
