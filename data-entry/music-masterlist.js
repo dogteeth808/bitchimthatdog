@@ -1,16 +1,94 @@
 const musicEntries = [
-// {
-//   link:``,
-//   image:``,
-//   title:``,
-//   type:`Collab, Cover, Mix, Original, Beat Battle, Set`,
-//   mixType:`Remix, Mashup, Shitpost`,
-//   collabType:`Main, Feature, Band`,
-//   alias2:`Feature (or Original Artist, in case of Cover/Remix)`,
-//   alias:`Main Artist`,
-//   tags:`epic // swag // music`,
-//   date:`00/00/2026`
-// },
+ //{
+ //  link:``,
+ //  image:``,
+ //  title:``,
+ //  type:`Collab, Cover, Mix, Original, Beat Battle, Set`,
+ //  mixType:`Remix, Mashup, Shitpost`,
+ //  collabType:`Main, Feature, Band`,
+ //  alias2:`Feature (or Original Artist, in case of Cover/Remix)`,
+ //  alias:`Main Artist`,
+ //  fave:`no`,
+ //  tags:`epic // swag // music`,
+ //  date:`00/00/2026`
+ //},
+{
+   link:`https://soundcloud.com/mynnteatwo/1billionimpressions`,
+   image:`https://i1.sndcdn.com/artworks-E3eKm3i4O6k5XZvR-zKxiMA-t500x500.png`,
+   title:`1BILLIONIMPRESSIONS`,
+   type:`Beat Battle`,
+   mixType:``,
+   collabType:``,
+   alias2:``,
+   alias:`mynntea`,
+   fave:`no`,
+   tags:`"loud ass 808"`,
+   date:`09/13/2026`
+ },
+{
+   link:`https://soundcloud.com/mynnteatwo/horizon-lines`,
+   image:`https://i1.sndcdn.com/artworks-L9LJKZVPIbBQlCkf-oemceg-t500x500.jpg`,
+   title:`horizon lines`,
+   type:`Beat Battle`,
+   mixType:``,
+   collabType:``,
+   alias2:``,
+   alias:`mynntea`,
+   fave:`no`,
+   tags:`"use a new plugin"`,
+   date:`09/05/2026`
+ },
+{
+   link:`https://soundcloud.com/mynnteatwo/mind-field-parody-of`,
+   image:`https://i1.sndcdn.com/artworks-7Z3yWqTg23WCQInn-k8uTNA-t500x500.jpg`,
+   title:`Mind Field`,
+   type:`Beat Battle`,
+   mixType:``,
+   collabType:``,
+   alias2:``,
+   alias:`mynntea`,
+   fave:`yes`,
+   tags:`Parody (underscores - Lovefield) // Genuine Masterpiece`,
+   date:`08/29/2026`
+ },
+{
+   link:`https://soundcloud.com/mynnteatwo/battleprayer`,
+   image:`https://i1.sndcdn.com/artworks-VPeJuZ9t8cVmeRH7-StCW8g-t500x500.png`,
+   title:`battleprayer`,
+   type:`Beat Battle`,
+   mixType:``,
+   collabType:``,
+   alias2:``,
+   alias:`mynntea`,
+   fave:`no`,
+   tags:`"mic only"`,
+   date:`08/15/2026`
+ },
+{
+   link:`https://soundcloud.com/mynnteatwo/carpet`,
+   image:`https://i1.sndcdn.com/artworks-oTI1e7wwFRMPWbn4-aVBWMQ-t500x500.png`,
+   title:`coughing up black shit`,
+   type:`Beat Battle`,
+   mixType:``,
+   collabType:``,
+   alias2:`kmoe`,
+   alias:`mynntea`,
+   fave:`no`,
+   tags:`Cover (kmoe - Carpet)`,
+   date:`08/08/2026`
+ },
+
+{
+  link:`https://pseudoserver.bandcamp.com/track/grillmaster2k`,
+  image:`https://f4.bcbits.com/img/a3193093651_2.jpg`,
+  title:`GRILLMASTER2K`,
+  type:`Original`,
+  alias:`dogteeth`,
+  fave:`yes`,
+  tags:`PSEUDOCOMP VOL. 2 // Samples My Grill!`,
+  date:`08/01/2026`
+},
+
 {
   link:`https://soundcloud.com/mynnteatwo/stick-the-paw-in-the-barrelll`,
   image:`https://i1.sndcdn.com/artworks-Hq3s6NrZz9YlaHfv-nkb4kg-t500x500.png`,
@@ -20,29 +98,21 @@ const musicEntries = [
   collabType:``,
   alias2:``,
   alias:`mynnteatwo`,
-  tags:``,
+  fave:`no`,
+  tags:`"make penis music"`,
   date:`07/26/2026`
 },
-{
-  link:`https://soundcloud.com/mynnteatwo/grillmaster2k`,
-  image:`https://i1.sndcdn.com/artworks-jJQvMqkFkSnLM36h-C8zjhw-t500x500.png`,
-  title:`GRILLMASTER2K`,
-  type:`Beat Battle`,
-  alias:`mynnteatwo`,
-  tags:``,
-  date:`07/25/2026`
-},
-  
+
 {
   link:`https://soundcloud.com/mynnteatwo/keep-em-guessin`,
   image:`https://i1.sndcdn.com/artworks-U2FE5kihToMpQRt3-k40bZQ-t500x500.png`,
   title:`keep em guessin`,
   type:`Beat Battle`,
   alias:`mynnteatwo`,
+  fave:`yes`,
   tags:``,
   date:`07/19/2026`
 },
-  
    
 {
   link:`https://ultrapop.bandcamp.com/track/sharkattack`,
@@ -50,6 +120,7 @@ const musicEntries = [
   title:`SHARKATTACK`,
   type:`Original`,
   alias:`dogteeth`,
+  fave:`yes`,
   tags:`Ultrapop`,
   date:`07/18/2026`
 },
@@ -61,6 +132,7 @@ const musicEntries = [
   title:`IMPROMPTUFEST`,
   type:`Set`,
   alias:`dogteeth`,
+  fave:`no`,
   tags:`Mashup // Showcase // URLFest`,
   date:`07/11/2026`
 },
@@ -72,6 +144,7 @@ const musicEntries = [
   title:`GOD SMITE AMERICA`,
   type:`Beat Battle`,
   alias:`mynnteatwo`,
+  fave:`no`,
   tags:``,
   date:`07/04/2026`
 },
@@ -83,6 +156,7 @@ const musicEntries = [
   title:`o t h e r w o r l d`,
   type:`Beat Battle`,
   alias:`mynnteatwo`,
+  fave:`no`,
   tags:``,
   date:`06/22/2026`
 },
@@ -96,6 +170,7 @@ const musicEntries = [
   collabType:`Team`,
   alias2:`socks. + eris mirror`,
   alias:`dogteeth`,
+  fave:`no`,
   tags:`Ultrapop`,
   date:`06/21/2026`
 },
@@ -107,6 +182,7 @@ const musicEntries = [
   title:`ELLIEEE_160IDKWHATKEY`,
   type:`Beat Battle`,
   alias:`mynnteatwo`,
+  fave:`yes`,
   tags:``,
   date:`06/13/2026`
 },
@@ -120,6 +196,7 @@ const musicEntries = [
   collabType:`Feature`,
   alias2:`1800heartbeat, nocturnnne`,
   alias:`dogteeth`,
+  fave:`yes`,
   tags:``,
   date:`06/03/2026`
 },
@@ -132,6 +209,7 @@ const musicEntries = [
   type:`Cover`,
   alias2:`limitrr`,
   alias:`dogteeth`,
+  fave:`yes`,
   tags:`Ultrapop`,
   date:`05/16/2026`
 },
@@ -143,6 +221,7 @@ const musicEntries = [
   title:`REDLINE`,
   type:`Beat Battle`,
   alias:`mynnteatwo`,
+  fave:`yes`,
   tags:``,
   date:`05/10/2026`
 },
@@ -154,6 +233,7 @@ const musicEntries = [
   title:`disappearing act`,
   type:`Beat Battle`,
   alias:`mynnteatwo`,
+  fave:`yes`,
   tags:``,
   date:`05/09/2026`
 },
@@ -165,6 +245,7 @@ const musicEntries = [
   title:`CRUSH ME UP!!!`,
   type:`Beat Battle`,
   alias:`mynnteatwo`,
+  fave:`yes`,
   tags:``,
   date:`04/26/2026`
 },
@@ -178,6 +259,7 @@ const musicEntries = [
   collabType:`Feature`,
   alias2:`socks.`,
   alias:`dogteeth`,
+  fave:`yes`,
   tags:``,
   date:`04/23/2026`
 },
@@ -191,6 +273,7 @@ const musicEntries = [
   collabType:`Team`,
   alias2:`t4teeth`,
   alias:`dogteeth`,
+  fave:`yes`,
   tags:`Ultrapop`,
   date:`04/18/2026`
 },
@@ -202,6 +285,7 @@ const musicEntries = [
   title:`ONEMORERUN`,
   type:`Beat Battle`,
   alias:`mynnteatwo`,
+  fave:`yes`,
   tags:``,
   date:`04/18/2026`
 },
@@ -213,6 +297,7 @@ const musicEntries = [
   title:`w shrambient`,
   type:`Beat Battle`,
   alias:`mynnteatwo`,
+  fave:`no`,
   tags:``,
   date:`04/15/2026`
 },
@@ -224,6 +309,7 @@ const musicEntries = [
   title:`tomodachi`,
   type:`Beat Battle`,
   alias:`mynnteatwo`,
+  fave:`no`,
   tags:``,
   date:`04/12/2026`
 },
@@ -235,6 +321,7 @@ const musicEntries = [
   title:`lurk`,
   type:`Beat Battle`,
   alias:`mynnteatwo`,
+  fave:`no`,
   tags:``,
   date:`04/11/2026`
 },
@@ -248,6 +335,7 @@ const musicEntries = [
   collabType:`Team`,
   alias2:`eris mirror`,
   alias:`dogteeth`,
+  fave:`yes`,
   tags:`Originally for Ultrapop`,
   date:`04/04/2026`
 },
@@ -259,6 +347,7 @@ const musicEntries = [
   title:`computer go la la la`,
   type:`Beat Battle`,
   alias:`mynnteatwo`,
+  fave:`no`,
   tags:``,
   date:`04/04/2026`
 },
@@ -271,6 +360,7 @@ const musicEntries = [
   type:`Collab`,
   collabType:`Band`,
   alias2:`iJello Paroetdy S`,
+  fave:`no`,
   tags:`EP // April Fools`,
   date:`04/01/2026`
 },
@@ -282,6 +372,7 @@ const musicEntries = [
   title:`put me together`,
   type:`Beat Battle`,
   alias:`mynnteatwo`,
+  fave:`no`,
   tags:``,
   date:`03/28/2026`
 },
@@ -293,6 +384,7 @@ const musicEntries = [
   title:`CAKE [prod. peril]`,
   type:`Beat Battle`,
   alias:`mynnteatwo`,
+  fave:`yes`,
   tags:``,
   date:`03/26/2026`
 },
@@ -304,6 +396,7 @@ const musicEntries = [
   title:`worst beat ever!`,
   type:`Beat Battle`,
   alias:`mynntea`,
+  fave:`no`,
   tags:``,
   date:`03/21/2026`
 },
@@ -315,6 +408,7 @@ const musicEntries = [
   title:`FIFTEENMILLION`,
   type:`Beat Battle`,
   alias:`mynntea`,
+  fave:`no`,
   tags:``,
   date:`03/14/2026`
 },
@@ -326,6 +420,7 @@ const musicEntries = [
   title:`paparazzi`,
   type:`Beat Battle`,
   alias:`mynntea`,
+  fave:`no`,
   tags:``,
   date:`03/07/2026`
 },
@@ -337,6 +432,7 @@ const musicEntries = [
   title:`IWANTITALL`,
   type:`Beat Battle`,
   alias:`mynntea`,
+  fave:`no`,
   tags:``,
   date:`03/05/2026`
 },
@@ -348,7 +444,8 @@ const musicEntries = [
   title:`educated horse`,
   type:`Beat Battle`,
   alias:`mynntea`,
-  tags:``,
+  fave:`yes`,
+  tags:`Parody (100 gecs - stupid horse)`,
   date:`03/01/2026`
 },
   
@@ -359,6 +456,7 @@ const musicEntries = [
   title:`limbo`,
   type:`Beat Battle`,
   alias:`mynntea`,
+  fave:`yes`,
   tags:``,
   date:`02/28/2026`
 },
@@ -370,6 +468,7 @@ const musicEntries = [
   title:`growthspurt`,
   type:`Beat Battle`,
   alias:`mynntea`,
+  fave:`no`,
   tags:``,
   date:`02/22/2026`
 },
@@ -382,6 +481,7 @@ const musicEntries = [
   type:`Cover`,
   alias2:`GFOTY`,
   alias:`dogteeth`,
+  fave:`no`,
   tags:`COVRRDUMP_1`,
   date:`02/04/2026`
 },
@@ -394,6 +494,7 @@ const musicEntries = [
   type:`Cover`,
   alias2:`kmoe`,
   alias:`dogteeth`,
+  fave:`yes`,
   tags:`COVRRDUMP_1`,
   date:`02/04/2026`
 },
@@ -406,6 +507,7 @@ const musicEntries = [
   type:`Cover`,
   alias2:`The Twentytwelves`,
   alias:`dogteeth`,
+  fave:`yes`,
   tags:`COVRRDUMP_1`,
   date:`02/04/2026`
 },
@@ -417,6 +519,7 @@ const musicEntries = [
   title:`what the fuck is a migrolino`,
   type:`Beat Battle`,
   alias:`mynntea`,
+  fave:`no`,
   tags:``,
   date:`02/01/2026`
 },
@@ -428,6 +531,7 @@ const musicEntries = [
   title:`gloves on my paws`,
   type:`Beat Battle`,
   alias:`mynntea`,
+  fave:`no`,
   tags:``,
   date:`01/24/2026`
 },
@@ -439,6 +543,7 @@ const musicEntries = [
   title:`washing machine`,
   type:`Beat Battle`,
   alias:`mynntea`,
+  fave:`yes`,
   tags:``,
   date:`01/17/2026`
 },
@@ -450,6 +555,7 @@ const musicEntries = [
   title:`oneMeee (demo)`,
   type:`Original`,
   alias:`mentholgrrl`,
+  fave:`no`,
   tags:`Ultrapop`,
   date:`01/17/2026`
 },
@@ -461,6 +567,7 @@ const musicEntries = [
   title:`2025 is over. make a 67 beat`,
   type:`Beat Battle`,
   alias:`mynntea`,
+  fave:`no`,
   tags:``,
   date:`12/27/2025`
 },
@@ -472,6 +579,7 @@ const musicEntries = [
   title:`all i really want all i really want is`,
   type:`Beat Battle`,
   alias:`mynntea`,
+  fave:`yes`,
   tags:``,
   date:`12/13/2025`
 },
@@ -483,6 +591,7 @@ const musicEntries = [
   title:`selenite--is anyone listening?`,
   type:`Original`,
   alias:`mentholgrrl`,
+  fave:`yes`,
   tags:`social contract`,
   date:`12/12/2025`
 },
@@ -496,6 +605,7 @@ const musicEntries = [
   collabType:`Team`,
   alias2:`eris mirror`,
   alias:`mentholgrrl`,
+  fave:`no`,
   tags:`social contract`,
   date:`12/12/2025`
 },
@@ -507,6 +617,7 @@ const musicEntries = [
   title:`trepidate--nothing lasts forever!`,
   type:`Original`,
   alias:`mentholgrrl`,
+  fave:`yes`,
   tags:`social contract`,
   date:`12/12/2025`
 },
@@ -518,6 +629,7 @@ const musicEntries = [
   title:`simple--hue/shift`,
   type:`Original`,
   alias:`mentholgrrl`,
+  fave:`no`,
   tags:`social contract`,
   date:`12/12/2025`
 },
@@ -529,6 +641,7 @@ const musicEntries = [
   title:`ninetenfest`,
   type:`Set`,
   alias:`mentholgrrl`,
+  fave:`yes`,
   tags:`Mashup // URLFest`,
   date:`11/30/2025`
 },
@@ -540,6 +653,7 @@ const musicEntries = [
   title:`check out my cuuup`,
   type:`Beat Battle`,
   alias:`mynntea`,
+  fave:`no`,
   tags:``,
   date:`11/29/2025`
 },
@@ -551,6 +665,7 @@ const musicEntries = [
   title:`open it up`,
   type:`Beat Battle`,
   alias:`mynntea`,
+  fave:`no`,
   tags:``,
   date:`11/15/2025`
 },
@@ -562,6 +677,7 @@ const musicEntries = [
   title:`DAMN GIRL!`,
   type:`Beat Battle`,
   alias:`mynntea`,
+  fave:`no`,
   tags:``,
   date:`11/06/2025`
 },
@@ -574,6 +690,7 @@ const musicEntries = [
   type:`Cover`,
   alias2:`Do Nothing`,
   alias:`mentholgrrl`,
+  fave:`yes`,
   tags:``,
   date:`10/28/2025`
 },
@@ -587,6 +704,7 @@ const musicEntries = [
   collabType:`Team`,
   alias2:`socks., Micah Callari, eris mirror, CILC`,
   alias:`mentholgrrl`,
+  fave:`yes`,
   tags:`bugmush`,
   date:`10/23/2025`
 },
@@ -598,6 +716,7 @@ const musicEntries = [
   title:`spam-nova`,
   type:`Beat Battle`,
   alias:`mynntea`,
+  fave:`no`,
   tags:``,
   date:`10/04/2025`
 },
@@ -611,6 +730,7 @@ const musicEntries = [
   collabType:`Team`,
   alias2:`Secret Girlfriend, nocturnnne`,
   alias:`mentholgrrl`,
+  fave:`yes`,
   tags:``,
   date:`09/27/2025`
 },
@@ -622,6 +742,7 @@ const musicEntries = [
   title:`snack-rock`,
   type:`Beat Battle`,
   alias:`mynntea`,
+  fave:`no`,
   tags:``,
   date:`09/27/2025`
 },
@@ -633,6 +754,7 @@ const musicEntries = [
   title:`ad-style`,
   type:`Beat Battle`,
   alias:`mynntea`,
+  fave:`no`,
   tags:``,
   date:`09/06/2025`
 },
@@ -644,6 +766,7 @@ const musicEntries = [
   title:`beat battles!!! (2022-2025)`,
   type:`Beat Battle`,
   alias:`mentholgrrl`,
+  fave:`no`,
   tags:`Album`,
   date:`09/05/2025`
 },
@@ -655,6 +778,7 @@ const musicEntries = [
   title:`winddnb`,
   type:`Beat Battle`,
   alias:`mynntea`,
+  fave:`no`,
   tags:``,
   date:`08/23/2025`
 },
@@ -666,6 +790,7 @@ const musicEntries = [
   title:`i really really really really really really really`,
   type:`Beat Battle`,
   alias:`mynntea`,
+  fave:`yes`,
   tags:``,
   date:`08/21/2025`
 },
@@ -677,6 +802,7 @@ const musicEntries = [
   title:`potion-house`,
   type:`Beat Battle`,
   alias:`mynntea`,
+  fave:`no`,
   tags:``,
   date:`08/16/2025`
 },
@@ -688,6 +814,7 @@ const musicEntries = [
   title:`trans-funk`,
   type:`Beat Battle`,
   alias:`mynntea`,
+  fave:`yes`,
   tags:``,
   date:`08/09/2025`
 },
@@ -699,6 +826,7 @@ const musicEntries = [
   title:`murderjersey`,
   type:`Beat Battle`,
   alias:`mynntea`,
+  fave:`yes`,
   tags:``,
   date:`08/02/2025`
 },
@@ -710,6 +838,7 @@ const musicEntries = [
   title:`fruitrage`,
   type:`Beat Battle`,
   alias:`mynntea`,
+  fave:`no`,
   tags:``,
   date:`07/26/2025`
 },
@@ -721,6 +850,7 @@ const musicEntries = [
   title:`caffienestomp`,
   type:`Beat Battle`,
   alias:`mynntea`,
+  fave:`no`,
   tags:``,
   date:`07/12/2025`
 },
@@ -734,6 +864,7 @@ const musicEntries = [
   collabType:`Feature`,
   alias2:`gupsemicolon, Micah Callari, quququinny, eris mirror, jessica may, Jem`,
   alias:`mentholgrrl`,
+  fave:`yes`,
   tags:`bugmush`,
   date:`07/04/2025`
 },
@@ -747,6 +878,7 @@ const musicEntries = [
   collabType:`Feature`,
   alias2:`gupsemicolon`,
   alias:`mentholgrrl`,
+  fave:`no`,
   tags:`to be determined.`,
   date:`06/29/2025`
 },
@@ -760,6 +892,7 @@ const musicEntries = [
   mixType:`Remix`,
   alias2:`eris mirror`,
   alias:`mentholgrrl`,
+  fave:`no`,
   tags:``,
   date:`06/21/2025`
 },
@@ -771,6 +904,7 @@ const musicEntries = [
   title:`gumpunk`,
   type:`Beat Battle`,
   alias:`mynntea`,
+  fave:`yes`,
   tags:``,
   date:`06/21/2025`
 },
@@ -784,6 +918,7 @@ const musicEntries = [
   collabType:`Feature`,
   alias2:`nocturnnne, Secret Girlfriend`,
   alias:`mentholgrrl`,
+  fave:`no`,
   tags:``,
   date:`06/13/2025`
 },
@@ -795,6 +930,7 @@ const musicEntries = [
   title:`ULTRAPOPULARFEST`,
   type:`Set`,
   alias:`mentholgrrl`,
+  fave:`no`,
   tags:`Mashup // URLFest`,
   date:`06/11/2025`
 },
@@ -806,6 +942,7 @@ const musicEntries = [
   title:`swamp water`,
   type:`Beat Battle`,
   alias:`mynntea`,
+  fave:`yes`,
   tags:``,
   date:`05/25/2025`
 },
@@ -819,6 +956,7 @@ const musicEntries = [
   collabType:`Team`,
   alias2:`dogHOUSE`,
   alias:`mentholgrrl`,
+  fave:`yes`,
   tags:`to be determined.`,
   date:`05/25/2025`
 },
@@ -830,6 +968,7 @@ const musicEntries = [
   title:`super consolidator`,
   type:`Beat Battle`,
   alias:`mynntea`,
+  fave:`no`,
   tags:``,
   date:`05/24/2025`
 },
@@ -841,6 +980,7 @@ const musicEntries = [
   title:`today i downloaded meowsynth`,
   type:`Beat Battle`,
   alias:`mynntea`,
+  fave:`no`,
   tags:``,
   date:`04/17/2025`
 },
@@ -852,6 +992,7 @@ const musicEntries = [
   title:`this the typa beat that go BONG`,
   type:`Beat Battle`,
   alias:`mynntea`,
+  fave:`no`,
   tags:``,
   date:`04/26/2025`
 },
@@ -865,6 +1006,7 @@ const musicEntries = [
   collabType:`Feature`,
   alias2:`gupsemicolon`,
   alias:`mentholgrrl`,
+  fave:`no`,
   tags:`GUP YOURSELF!`,
   date:`04/24/2025`
 },
@@ -873,9 +1015,10 @@ const musicEntries = [
 {
   link:`https://soundcloud.com/mynntea/7teenagain`,
   image:`https://mentholgrrl.neocities.org/imageassets/cover-arts/7teenagain.jpg`,
-  title:`7teenagain ! (WIP`,
+  title:`7teenagain !`,
   type:`Beat Battle`,
   alias:`mynntea`,
+  fave:`no`,
   tags:``,
   date:`04/19/2025`
 },
@@ -889,6 +1032,7 @@ const musicEntries = [
   collabType:`Feature`,
   alias2:`gupsemicolon, blissom, daniboi, jessica may, quququinny, Micah Callari`,
   alias:`mentholgrrl`,
+  fave:`yes`,
   tags:`GUP YOURSELF!`,
   date:`04/10/2025`
 },
@@ -897,10 +1041,11 @@ const musicEntries = [
 {
   link:`https://soundcloud.com/mynntea/apparently-cover-wip`,
   image:`https://mentholgrrl.neocities.org/imageassets/cover-arts/apparently-wip.jpg`,
-  title:`apparently cover (WIP`,
+  title:`apparently cover`,
   type:`Beat Battle`,
   alias:`mynntea`,
-  tags:``,
+  fave:`no`,
+  tags:`Cover`,
   date:`04/05/2025`
 },
   
@@ -912,6 +1057,7 @@ const musicEntries = [
   type:`Collab`,
   collabType:`Band`,
   alias2:`iJello Paroetdy S`,
+  fave:`no`,
   tags:`EP // April Fools`,
   date:`04/05/2025`
 },
@@ -925,6 +1071,7 @@ const musicEntries = [
   collabType:`Team`,
   alias2:`irselr // Remix (ivy earthworm)`,
   alias:`mentholgrrl`,
+  fave:`yes`,
   tags:`to be determined.`,
   date:`03/30/2025`
 },
@@ -936,6 +1083,7 @@ const musicEntries = [
   title:`clarity? bitcjh ur lens needs a wipe`,
   type:`Beat Battle`,
   alias:`mynntea`,
+  fave:`no`,
   tags:``,
   date:`03/01/2025`
 },
@@ -947,6 +1095,7 @@ const musicEntries = [
   title:`luma pool`,
   type:`Beat Battle`,
   alias:`mynntea`,
+  fave:`yes`,
   tags:``,
   date:`02/15/2025`
 },
@@ -958,6 +1107,7 @@ const musicEntries = [
   title:`macaroni tutorial`,
   type:`Beat Battle`,
   alias:`mynntea`,
+  fave:`yes`,
   tags:``,
   date:`02/01/2025`
 },
@@ -970,6 +1120,7 @@ const musicEntries = [
   type:`Collab`,
   collabType:`Band`,
   alias2:`iJello Paroetdy S`,
+  fave:`no`,
   tags:`to be determined.`,
   date:`01/19/2025`
 },
@@ -981,6 +1132,7 @@ const musicEntries = [
   title:`evil fucking castle`,
   type:`Beat Battle`,
   alias:`mynntea`,
+  fave:`no`,
   tags:``,
   date:`01/25/2025`
 },
@@ -992,6 +1144,7 @@ const musicEntries = [
   title:`new copy`,
   type:`Original`,
   alias:`mynntea`,
+  fave:`yes`,
   tags:`null field`,
   date:`01/24/2025`
 },
@@ -1003,6 +1156,7 @@ const musicEntries = [
   title:`hot concrete and i got no shoes`,
   type:`Beat Battle`,
   alias:`mynntea`,
+  fave:`no`,
   tags:``,
   date:`01/18/2025`
 },
@@ -1014,6 +1168,7 @@ const musicEntries = [
   title:`i wish you could be`,
   type:`Beat Battle`,
   alias:`mynntea`,
+  fave:`no`,
   tags:`Mashup`,
   date:`01/11/2025`
 },
@@ -1025,6 +1180,7 @@ const musicEntries = [
   title:`erm,,, what was that table even made of`,
   type:`Beat Battle`,
   alias:`mynntea`,
+  fave:`no`,
   tags:``,
   date:`01/04/2025`
 },
@@ -1036,6 +1192,7 @@ const musicEntries = [
   title:`fae jess birthday bash!!!`,
   type:`Set`,
   alias:`mentholgrrl`,
+  fave:`no`,
   tags:`Mashup // URLFest`,
   date:`12/28/2024`
 },
@@ -1046,8 +1203,10 @@ const musicEntries = [
   image:`https://mentholgrrl.neocities.org/imageassets/cover-arts/thick-of-it-beat-battle.jpg`,
   title:`he remains in the thick of it`,
   type:`Beat Battle`,
+  fave:`no`,
   tags:`Mashup`,
   alias:`mynntea`,
+  fave:`no`,
   tags:``,
   date:`11/30/2024`
 },
@@ -1061,6 +1220,7 @@ const musicEntries = [
   mixType:`Remix`,
   alias2:`KSI, Trippie Redd`,
   alias:`mynntea`,
+  fave:`yes`,
   tags:``,
   date:`11/29/2024`
 },
@@ -1072,6 +1232,7 @@ const musicEntries = [
   title:`they should put fl studio on a whii u`,
   type:`Beat Battle`,
   alias:`mynntea`,
+  fave:`no`,
   tags:``,
   date:`11/16/2024`
 },
@@ -1083,6 +1244,7 @@ const musicEntries = [
   title:`BUELFEST 2024`,
   type:`Set`,
   alias:`mentholgrrl`,
+  fave:`no`,
   tags:`Playlist // URLFest`,
   date:`11/06/2024`
 },
@@ -1094,6 +1256,7 @@ const musicEntries = [
   title:`cacophony`,
   type:`Original`,
   alias:`mynntea`,
+  fave:`no`,
   tags:``,
   date:`08/31/2024`
 },
@@ -1105,6 +1268,7 @@ const musicEntries = [
   title:`i gaze upon our wee village and smile`,
   type:`Beat Battle`,
   alias:`mynntea`,
+  fave:`no`,
   tags:``,
   date:`08/31/2024`
 },
@@ -1116,6 +1280,7 @@ const musicEntries = [
   title:`ITS_A_HYPERPOP_ SUMMER_731`,
   type:`Set`,
   alias:`mentholgrrl`,
+  fave:`yes`,
   tags:`Mashup // Visuals`,
   date:`08/30/2024`
 },
@@ -1128,6 +1293,7 @@ const musicEntries = [
   type:`Collab`,
   collabType:`Band`,
   alias2:`jellie`,
+  fave:`no`,
   tags:`Goop House`,
   date:`08/10/2024`
 },
@@ -1139,6 +1305,7 @@ const musicEntries = [
   title:`smell the flowers`,
   type:`Original`,
   alias:`mynntea`,
+  fave:`yes`,
   tags:`null field`,
   date:`07/28/2024`
 },
@@ -1152,6 +1319,7 @@ const musicEntries = [
   collabType:`Team`,
   alias2:`Telephone`,
   alias:`mentholgrrl`,
+  fave:`yes`,
   tags:`to be determined.`,
   date:`07/21/2024`
 },
@@ -1165,6 +1333,7 @@ const musicEntries = [
   collabType:`Team`,
   alias2:`quququinny`,
   alias:`mentholgrrl`,
+  fave:`no`,
   tags:`to be determined.`,
   date:`07/01/2024`
 },
@@ -1176,6 +1345,7 @@ const musicEntries = [
   title:`opposite day`,
   type:`Beat Battle`,
   alias:`mynntea`,
+  fave:`no`,
   tags:`null field`,
   date:`06/29/2024`
 },
@@ -1186,8 +1356,10 @@ const musicEntries = [
   image:`https://mentholgrrl.neocities.org/imageassets/cover-arts/checking-my-phone.jpg`,
   title:`checking my phone`,
   type:`Beat Battle`,
+  fave:`no`,
   tags:`Cover (Knock Monsterr)`,
   alias:`mynntea`,
+  fave:`no`,
   tags:``,
   date:`06/22/2024`
 },
@@ -1199,6 +1371,7 @@ const musicEntries = [
   title:`welcome to the show`,
   type:`Beat Battle`,
   alias:`mynntea`,
+  fave:`yes`,
   tags:``,
   date:`06/15/2024`
 },
@@ -1211,6 +1384,7 @@ const musicEntries = [
   type:`Collab`,
   collabType:`Band`,
   alias2:`GOBLIN GANG`,
+  fave:`no`,
   tags:`sleepy.zone`,
   date:`06/09/2024`
 },
@@ -1222,6 +1396,7 @@ const musicEntries = [
   title:`simple [2024 Version]`,
   type:`Original`,
   alias:`mentholgrrl`,
+  fave:`no`,
   tags:`sleepy.zone`,
   date:`06/09/2024`
 },
@@ -1233,6 +1408,7 @@ const musicEntries = [
   title:`"The Deconstruction Movement" Release Party`,
   type:`Set`,
   alias:`mintymints`,
+  fave:`no`,
   tags:`Release Party (Micah Callari - The Deconstruction Movement)`,
   date:`05/22/2024`
 },
@@ -1244,6 +1420,7 @@ const musicEntries = [
   title:`stagger`,
   type:`Original`,
   alias:`mintymints`,
+  fave:`no`,
   tags:`Goop House`,
   date:`05/06/2024`
 },
@@ -1256,6 +1433,7 @@ const musicEntries = [
   type:`Beat Battle`,
   alias2:``,
   alias:`mynntea`,
+  fave:`yes`,
   tags:`sleepy.zone`,
   date:`04/27/2024`
 },
@@ -1269,6 +1447,7 @@ const musicEntries = [
   collabType:`Team`,
   alias2:`squinkle`,
   alias:`mynntea`,
+  fave:`no`,
   tags:``,
   date:`04/20/2024`
 },
@@ -1280,6 +1459,7 @@ const musicEntries = [
   title:`omen`,
   type:`Beat Battle`,
   alias:`mynntea`,
+  fave:`no`,
   tags:``,
   date:`04/13/2024`
 },
@@ -1291,6 +1471,7 @@ const musicEntries = [
   title:`thrusters engage`,
   type:`Original`,
   alias:`mynntea`,
+  fave:`no`,
   tags:`somewhere else`,
   date:`04/10/2024`
 },
@@ -1303,6 +1484,7 @@ const musicEntries = [
   type:`Collab`,
   collabType:`Band`,
   alias2:`iJello Paroetdy S`,
+  fave:`yes`,
   tags:`EP`,
   date:`04/01/2024`
 },
@@ -1315,6 +1497,7 @@ const musicEntries = [
   type:`Collab`,
   collabType:`Band`,
   alias2:`iJello Paroetdy S`,
+  fave:`no`,
   tags:`EP`,
   date:`04/01/2024`
 },
@@ -1327,6 +1510,7 @@ const musicEntries = [
   type:`Collab`,
   collabType:`Band`,
   alias2:`iJello Paroetdy S`,
+  fave:`no`,
   tags:`EP`,
   date:`04/01/2024`
 },
@@ -1339,6 +1523,7 @@ const musicEntries = [
   type:`Collab`,
   collabType:`Band`,
   alias2:`iJello Paroetdy S`,
+  fave:`no`,
   tags:`EP`,
   date:`04/01/2024`
 },
@@ -1350,6 +1535,7 @@ const musicEntries = [
   title:`"fragile creatures" release party`,
   type:`Set`,
   alias:`mintymints`,
+  fave:`no`,
   tags:`Release Party (eris mirror - fragile creatures)`,
   date:`03/30/2024`
 },
@@ -1361,6 +1547,7 @@ const musicEntries = [
   title:`epicwest beemo`,
   type:`Beat Battle`,
   alias:`mynntea`,
+  fave:`no`,
   tags:``,
   date:`03/30/2024`
 },
@@ -1374,6 +1561,7 @@ const musicEntries = [
   collabType:`Feature`,
   alias2:`Micah Callari`,
   alias:`mintymints`,
+  fave:`yes`,
   tags:`The Deconstruction Movement`,
   date:`03/27/2024`
 },
@@ -1385,6 +1573,7 @@ const musicEntries = [
   title:`velcrocore`,
   type:`Beat Battle`,
   alias:`mynntea`,
+  fave:`no`,
   tags:``,
   date:`03/02/2024`
 },
@@ -1396,6 +1585,7 @@ const musicEntries = [
   title:`LEAPFEST`,
   type:`Set`,
   alias:`mintymints`,
+  fave:`no`,
   tags:`URLFest`,
   date:`02/29/2024`
 },
@@ -1408,6 +1598,7 @@ const musicEntries = [
   type:`Collab`,
   collabType:`Band`,
   alias2:`iPhone 7.1`,
+  fave:`no`,
   tags:`sleepy.zone`,
   date:`02/09/2024`
 },
@@ -1420,6 +1611,7 @@ const musicEntries = [
   type:`Collab`,
   collabType:`Band`,
   alias2:`iPhone 7.1`,
+  fave:`yes`,
   tags:`sleepy.zone`,
   date:`12/31/2023`
 },
@@ -1432,6 +1624,7 @@ const musicEntries = [
   type:`Collab`,
   collabType:`Band`,
   alias2:`GOBLIN GANG`,
+  fave:`no`,
   tags:`sleepy.zone`,
   date:`12/31/2023`
 },
@@ -1443,6 +1636,7 @@ const musicEntries = [
   title:`fae + jess BIRTHDAY BASH`,
   type:`Set`,
   alias:`mintymints`,
+  fave:`no`,
   tags:`URLFest`,
   date:`12/29/2023`
 },
@@ -1456,6 +1650,7 @@ const musicEntries = [
   collabType:`Team`,
   alias2:`squinkle`,
   alias:`mynntea`,
+  fave:`no`,
   tags:``,
   date:`12/25/2023`
 },
@@ -1468,6 +1663,7 @@ const musicEntries = [
   type:`Collab`,
   collabType:`Band`,
   alias2:`GOBLIN GANG`,
+  fave:`no`,
   tags:`sleepy.zone`,
   date:`11/26/2023`
 },
@@ -1481,6 +1677,7 @@ const musicEntries = [
   collabType:`Team`,
   alias2:`Dawn of Apples`,
   alias:`mintymints`,
+  fave:`yes`,
   tags:`sleepy.zone`,
   date:`11/26/2023`
 },
@@ -1492,6 +1689,7 @@ const musicEntries = [
   title:`gelatin`,
   type:`Original`,
   alias:`mynntea`,
+  fave:`yes`,
   tags:``,
   date:`11/24/2023`
 },
@@ -1503,6 +1701,7 @@ const musicEntries = [
   title:`Re-Fresh Radio E0`,
   type:`Set`,
   alias:`mintymints`,
+  fave:`no`,
   tags:`URLFest`,
   date:`11/07/2023`
 },
@@ -1514,6 +1713,7 @@ const musicEntries = [
   title:`BUELFEST 2023`,
   type:`Set`,
   alias:`mintymints`,
+  fave:`no`,
   tags:`Visuals // URLFest`,
   date:`11/03/2023`
 },
@@ -1525,6 +1725,7 @@ const musicEntries = [
   title:`creepy.zone 2023`,
   type:`Set`,
   alias:`mintymints`,
+  fave:`no`,
   tags:`sleepy.zone`,
   date:`10/31/2023`
 },
@@ -1537,6 +1738,7 @@ const musicEntries = [
   type:`Cover`,
   alias2:`underscores`,
   alias:`mynntea`,
+  fave:`no`,
   tags:``,
   date:`10/31/2023`
 },
@@ -1548,6 +1750,7 @@ const musicEntries = [
   title:`jigsaws + jams`,
   type:`Set`,
   alias:`mintymints`,
+  fave:`no`,
   tags:`URLFest`,
   date:`10/08/2023`
 },
@@ -1560,6 +1763,7 @@ const musicEntries = [
   type:`Cover`,
   alias2:`underscores`,
   alias:`mynntea`,
+  fave:`yes`,
   tags:``,
   date:`10/05/2023`
 },
@@ -1573,6 +1777,7 @@ const musicEntries = [
   mixType:`Remix`,
   alias2:`Various sleepy.zone Artists from Sleepy Tapes 5a`,
   alias:`mentholgrrl`,
+  fave:`no`,
   tags:``,
   date:`09/24/2023`
 },
@@ -1584,6 +1789,7 @@ const musicEntries = [
   title:`rifts/crueluncertainty_final`,
   type:`Original`,
   alias:`mentholgrrl`,
+  fave:`yes`,
   tags:`sleepy.zone`,
   date:`09/15/2023`
 },
@@ -1597,6 +1803,7 @@ const musicEntries = [
   mixType:`Mashup`,
   alias2:`Ecco2k, Toby Fox`,
   alias:`mynntea`,
+  fave:`yes`,
   tags:``,
   date:`09/13/2023`
 },
@@ -1608,6 +1815,7 @@ const musicEntries = [
   title:`i think this juice is expired`,
   type:`Original`,
   alias:`mynntea`,
+  fave:`no`,
   tags:``,
   date:`09/01/2023`
 },
@@ -1619,6 +1827,7 @@ const musicEntries = [
   title:`thermoscore`,
   type:`Original`,
   alias:`mynntea`,
+  fave:`no`,
   tags:``,
   date:`09/01/2023`
 },
@@ -1627,10 +1836,12 @@ const musicEntries = [
 {
   link:`https://soundcloud.com/mynntea/dead-planets-moon`,
   image:`https://mentholgrrl.neocities.org/imageassets/cover-arts/museum.jpg`,
-  title:`dead planet's moon (museum`,
+  title:`dead planet's moon (museum)`,
   type:`Original`,
+  fave:`no`,
   tags:`somewhere else`,
   alias:`mynntea`,
+  fave:`no`,
   tags:``,
   date:`08/31/2023`
 },
@@ -1642,6 +1853,7 @@ const musicEntries = [
   title:`one year of sleepy.zone!`,
   type:`Set`,
   alias:`mintymints`,
+  fave:`yes`,
   tags:`Mashup // sleepy.zone`,
   date:`08/28/2023`
 },
@@ -1655,6 +1867,7 @@ const musicEntries = [
   mixType:`Mashup`,
   alias2:`Weezer, Fred Figglehorn, 99jakes`,
   alias:`mynntea`,
+  fave:`no`,
   tags:``,
   date:`08/14/2023`
 },
@@ -1666,6 +1879,7 @@ const musicEntries = [
   title:`suspension railway type beat`,
   type:`Original`,
   alias:`mintymints`,
+  fave:`no`,
   tags:`Unreleased :3 // ehehe`,
   date:`08/09/2023`
 },
@@ -1674,9 +1888,10 @@ const musicEntries = [
 {
   link:`https://soundcloud.com/mynntea/boxslashblender`,
   image:`https://mentholgrrl.neocities.org/imageassets/cover-arts/box-blender.jpg`,
-  title:`box/blender (demo`,
+  title:`box/blender (demo)`,
   type:`Original`,
   alias:`mynntea`,
+  fave:`no`,
   tags:``,
   date:`08/05/2023`
 },
@@ -1688,6 +1903,7 @@ const musicEntries = [
   title:`interloper`,
   type:`Original`,
   alias:`mintymints`,
+  fave:`no`,
   tags:`sleepy.zone`,
   date:`07/24/2023`
 },
@@ -1702,6 +1918,7 @@ const musicEntries = [
   mixType:`Mashup`,
   alias2:`blissom, bladee`,
   alias:`mynntea`,
+  fave:`no`,
   tags:``,
   date:`07/17/2023`
 },
@@ -1715,6 +1932,7 @@ const musicEntries = [
   mixType:`Remix`,
   alias2:`underscores`,
   alias:`mynntea`,
+  fave:`no`,
   tags:``,
   date:`07/16/2023`
 },
@@ -1725,8 +1943,10 @@ const musicEntries = [
   image:`https://mentholgrrl.neocities.org/imageassets/cover-arts/pyrite-caverns.jpg`,
   title:`pyrite caverns`,
   type:`Original`,
+  fave:`no`,
   tags:`somewhere else`,
   alias:`mynntea`,
+  fave:`no`,
   tags:``,
   date:`07/15/2023`
 },
@@ -1739,6 +1959,7 @@ const musicEntries = [
   type:`Cover`,
   alias2:`underscores`,
   alias:`mentholgrrl`,
+  fave:`no`,
   tags:``,
   date:`07/08/2023`
 },
@@ -1752,6 +1973,7 @@ const musicEntries = [
   mixType:`Mashup`,
   alias2:`SOPHIE, Micah Callari, Patricia Taxxon, Parry Gripp`,
   alias:`mynntea`,
+  fave:`no`,
   tags:``,
   date:`06/23/2023`
 },
@@ -1762,8 +1984,10 @@ const musicEntries = [
   image:`https://mentholgrrl.neocities.org/imageassets/cover-arts/station-7B.jpg`,
   title:`station 7B`,
   type:`Original`,
+  fave:`no`,
   tags:`somewhere else`,
   alias:`mynntea`,
+  fave:`no`,
   tags:``,
   date:`06/22/2023`
 },
@@ -1777,6 +2001,7 @@ const musicEntries = [
   mixType:`Mashup`,
   alias2:`check description`,
   alias:`mentholgrrl`,
+  fave:`yes`,
   tags:``,
   date:`06/10/2023`
 },
@@ -1787,8 +2012,10 @@ const musicEntries = [
   image:`https://mentholgrrl.neocities.org/imageassets/cover-arts/no-one-can-hear-you-groove-in-space.jpg`,
   title:`no one can hear you groove in space`,
   type:`Original`,
+  fave:`no`,
   tags:`somewhere else`,
   alias:`mynntea`,
+  fave:`no`,
   tags:``,
   date:`06/08/2023`
 },
@@ -1801,6 +2028,7 @@ const musicEntries = [
   collabType:`Team`,
   alias2:`lot of people`,
   alias:`mintymints`,
+  fave:`no`,
   tags:`sleepy.zone`,
   date:`05/26/2023`
 },
@@ -1814,6 +2042,7 @@ const musicEntries = [
   mixType:`Mashup`,
   alias2:`Parry Gripp, bladee`,
   alias:`mynntea`,
+  fave:`no`,
   tags:``,
   date:`05/26/2023`
 },
@@ -1827,6 +2056,7 @@ const musicEntries = [
   mixType:`Mashup`,
   alias2:`PvZ, bladee, brakence`,
   alias:`mynntea`,
+  fave:`yes`,
   tags:``,
   date:`05/13/2023`
 },
@@ -1838,6 +2068,7 @@ const musicEntries = [
   title:`gupfest`,
   type:`Set`,
   alias:`mintymints`,
+  fave:`no`,
   tags:`Mashup // URLFest`,
   date:`04/22/2023`
 },
@@ -1849,6 +2080,7 @@ const musicEntries = [
   title:`synthetic sunrise`,
   type:`Original`,
   alias:`mynntea`,
+  fave:`no`,
   tags:``,
   date:`04/15/2023`
 },
@@ -1860,6 +2092,7 @@ const musicEntries = [
   title:`foolsfest`,
   type:`Set`,
   alias:`mintymints`,
+  fave:`yes`,
   tags:`Shitpost // URLFest`,
   date:`04/01/2023`
 },
@@ -1872,6 +2105,7 @@ const musicEntries = [
   collabType:`Feature`,
   alias2:`sleepy.zone`,
   alias:`mintymints`,
+  fave:`no`,
   tags:`sleepy.zone`,
   date:`03/19/2023`
 },
@@ -1883,6 +2117,7 @@ const musicEntries = [
   title:`mom, look, i'm on sleepy.zone AGAIN!`,
   type:`Set`,
   alias:`mintymints`,
+  fave:`no`,
   tags:`Playlist // sleepy.zone`,
   date:`01/29/2023`
 },
@@ -1894,6 +2129,7 @@ const musicEntries = [
   title:`i am hugging gary thru the astral plane`,
   type:`Original`,
   alias:`mintymints`,
+  fave:`no`,
   tags:`sleepy.zone`,
   date:`03/14/2023`
 },
@@ -1905,6 +2141,7 @@ const musicEntries = [
   title:`LAVENDER TOWN AHHHHHHH ASS BEAT`,
   type:`Original`,
   alias:`mintymints`,
+  fave:`no`,
   tags:`sleepy.zone`,
   date:`02/21/2023`
 },
@@ -1917,6 +2154,7 @@ const musicEntries = [
   type:`Cover`,
   alias2:`some copypasta`,
   alias:`mintymints`,
+  fave:`no`,
   tags:`sleepy.zone`,
   date:`02/21/2023`
 },
@@ -1925,11 +2163,12 @@ const musicEntries = [
 {
   link:`https://soundcloud.com/sleepyzone/dawn-of-apples-mintymints-ram`,
   image:`https://mentholgrrl.neocities.org/imageassets/cover-arts/sleepy-tapes-4.jpg`,
-  title:`RAM (Rotating Auto-Mobiles`,
+  title:`RAM (Rotating Auto-Mobiles)`,
   type:`Collab`,
   collabType:`Team`,
   alias2:`Dawn of Apples`,
   alias:`mintymints`,
+  fave:`yes`,
   tags:`sleepy.zone`,
   date:`02/12/2023`
 },
@@ -1941,6 +2180,7 @@ const musicEntries = [
   title:`iN_coM*ng tr_NsM*ss_i0n...`,
   type:`Original`,
   alias:`mintymints`,
+  fave:`no`,
   tags:`sleepy.zone`,
   date:`02/12/2023`
 },
@@ -1952,6 +2192,7 @@ const musicEntries = [
   title:`fargofest`,
   type:`Set`,
   alias:`mintymints`,
+  fave:`no`,
   tags:`Mashup // URLFest`,
   date:`02/11/2023`
 },
@@ -1965,6 +2206,7 @@ const musicEntries = [
   collabType:`Team`,
   alias2:`nocturnnne, mattydee`,
   alias:`mintymints`,
+  fave:`no`,
   tags:`Goop House`,
   date:`01/29/2023`
 },
@@ -1976,6 +2218,7 @@ const musicEntries = [
   title:`SPEED PULSE`,
   type:`Set`,
   alias:`mintymints`,
+  fave:`no`,
   tags:`URLFest`,
   date:`01/21/2023`
 },
@@ -1987,6 +2230,7 @@ const musicEntries = [
   title:`nice project file girlie where did u get it`,
   type:`Beat Battle`,
   alias:`mynntea`,
+  fave:`no`,
   tags:``,
   date:`01/21/2023`
 },
@@ -2000,6 +2244,7 @@ const musicEntries = [
   mixType:`Remix`,
   alias2:`edyn`,
   alias:`mynntea`,
+  fave:`no`,
   tags:``,
   date:`01/10/2023`
 },
@@ -2011,6 +2256,7 @@ const musicEntries = [
   title:`im in my drake arc`,
   type:`Shitpost`,
   alias:`mynntea`,
+  fave:`no`,
   tags:``,
   date:`12/11/2022`
 },
@@ -2022,6 +2268,7 @@ const musicEntries = [
   title:`goofyahh.zone`,
   type:`Set`,
   alias:`mintymints`,
+  fave:`no`,
   tags:`Shitpost // sleepy.zone`,
   date:`11/30/2022`
 },
@@ -2033,6 +2280,7 @@ const musicEntries = [
   title:`sky's end`,
   type:`Original`,
   alias:`mintymints`,
+  fave:`no`,
   tags:`sleepy.zone`,
   date:`11/10/2022`
 },
@@ -2044,6 +2292,7 @@ const musicEntries = [
   title:`electradome`,
   type:`Set`,
   alias:`mintymints`,
+  fave:`no`,
   tags:`Playlist // URLFest`,
   date:`10/30/2022`
 },
@@ -2055,6 +2304,7 @@ const musicEntries = [
   title:`creepy.zone 2022`,
   type:`Set`,
   alias:`mintymints`,
+  fave:`no`,
   tags:`Shitpost // sleepy.zone`,
   date:`10/27/2022`
 },
@@ -2066,6 +2316,7 @@ const musicEntries = [
   title:`musicbox`,
   type:`Original`,
   alias:`mintymints`,
+  fave:`no`,
   tags:`Common Objects`,
   date:`10/26/2022`
 },
@@ -2077,6 +2328,7 @@ const musicEntries = [
   title:`leaving the atmosphere`,
   type:`Beat Battle`,
   alias:`mynntea`,
+  fave:`no`,
   tags:``,
   date:`10/15/2022`
 },
@@ -2090,6 +2342,7 @@ const musicEntries = [
   collabType:`Feature`,
   alias2:`sleepy.zone`,
   alias:`mintymints`,
+  fave:`yes`,
   tags:`sleepy.zone`,
   date:`09/29/2022`
 },
@@ -2101,6 +2354,7 @@ const musicEntries = [
   title:`g e t s i l l y !`,
   type:`Shitpost`,
   alias:`mintymints`,
+  fave:`no`,
   tags:``,
   date:`09/21/2022`
 },
@@ -2113,6 +2367,7 @@ const musicEntries = [
   type:`Collab`,
   collabType:`Band`,
   alias2:`Various Eminems`,
+  fave:`no`,
   tags:`Shitpost`,
   date:`09/03/2022`
 },
@@ -2124,6 +2379,7 @@ const musicEntries = [
   title:`mom, look! i'm on sleepy.zone!`,
   type:`Set`,
   alias:`mintymints`,
+  fave:`no`,
   tags:`Playlist // sleepy.zone`,
   date:`08/30/2022`
 },
@@ -2137,6 +2393,7 @@ const musicEntries = [
   mixType:`Remix`,
   alias2:`underscores`,
   alias:`mintymints`,
+  fave:`no`,
   tags:`Shitpost`,
   date:`08/30/2022`
 },
@@ -2148,6 +2405,7 @@ const musicEntries = [
   title:`TonkaQuest 2`,
   type:`Original`,
   alias:`mintymints`,
+  fave:`no`,
   tags:`Bosca Ceoil // tonkacore`,
   date:`08/10/2022`
 },
@@ -2159,6 +2417,7 @@ const musicEntries = [
   title:`TonkaQuest 1`,
   type:`Original`,
   alias:`mintymints`,
+  fave:`no`,
   tags:`Bosca Ceoil // tonkacore`,
   date:`08/05/2022`
 },
@@ -2172,6 +2431,7 @@ const musicEntries = [
   mixType:`Remix`,
   alias2:`i don't remember oops`,
   alias:`mintymints`,
+  fave:`no`,
   tags:`tonkacore`,
   date:`08/02/2022`
 },
@@ -2183,6 +2443,7 @@ const musicEntries = [
   title:`yeatfest`,
   type:`Set`,
   alias:`Yeat 8`,
+  fave:`no`,
   tags:`sleepy.zone`,
   date:`07/26/2022`
 },
@@ -2194,87 +2455,15 @@ const musicEntries = [
   title:`oceanic depths`,
   type:`Original`,
   alias:`mintymints`,
+  fave:`no`,
   tags:`Bosca Ceoil`,
   date:`02/20/2022`
 }];
-  
-function compileMusicEntries() {
+
+function compileMusicEntries(type) {
   
     let categoryKeys = {
-        "Collab": {id:"collabList", content:""},
-        "Cover": {id:"coverList", content:""},
-        "Mix": {id:"mixList", content:""},
-        "Original": {id:"originalList", content:""},
-        "Beat Battle": {id:"beatBattleList", content:""},
-        "Set": {id:"setList", content:""},
-        "Shitpost": {id:"allList", content:"this shit never getting used LMAO its a null preventer"},
-        all: {id:"allList", content:""},
-    };
-    
-    for (let x = 0; x < musicEntries.length; x++) {
-      
-        let entry = "";
-    
-    // Line 0
-        entry += `<img src="` + musicEntries[x].image + `" style="aspect-ratio: 1 / 1; width: 400px;"><br>`;
-    
-    // Line 1
-        entry += `<a href="` + musicEntries[x].link + `" target="_blank">` + musicEntries[x].title + `</a><br>`;
-        
-    // Line 2
-        if (musicEntries[x].mixType == "Mashup") {
-            entry += musicEntries[x].mixType + ` (` + musicEntries[x].alias2 + `)`;
-        }
-        else if (musicEntries[x].collabType == "Band" || musicEntries[x].collabType == "Feature") {
-            entry += musicEntries[x].alias2;
-        }
-        else {
-            entry += musicEntries[x].alias;
-        }
-        
-        entry += `<br>`
-        
-    // Line 3
-        if (musicEntries[x].mixType == "Mashup") {
-            entry += musicEntries[x].alias;
-        }
-        else {
-            musicEntries[x].mixType == "Remix" ?
-            entry += musicEntries[x].mixType :
-            entry += musicEntries[x].type;
-                
-            if (musicEntries[x].collabType == "Feature") {
-                entry += ` (` + musicEntries[x].alias + `)`;
-            }
-            else if (musicEntries[x].collabType == "Team" || musicEntries[x].type == "Cover" || musicEntries[x].mixType == "Remix") {
-                entry += ` (` + musicEntries[x].alias2 + `)`;
-            }
-
-        }
-        
-        if (musicEntries[x].tags != ``) {
-            entry += ` // ` + musicEntries[x].tags;
-        }
-        
-    // Line 4
-        entry += `<br>` + musicEntries[x].date + `<br><br>`;
-        
-        categoryKeys[musicEntries[x].type].content += entry;
-        categoryKeys.all.content += entry;
-    }
-    
-    for (let category in categoryKeys) {
-        let element = document.getElementById(categoryKeys[category].id);
-        if (element !== null) {
-            element.innerHTML = categoryKeys[category].content;
-        }
-    }
-  
-}
-
-function compileMusicEntriesReal() {
-  
-    let categoryKeys = {
+        "Fave": {content: ""},
         "Collab": {id:"collabList", content:""},
         "Cover": {id:"coverList", content:""},
         "Mix": {id:"mixList", content:""},
@@ -2354,22 +2543,44 @@ function compileMusicEntriesReal() {
         
         categoryKeys[musicEntries[x].type].content += entry;
         categoryKeys.all.content += entry;
-    
-    }
-    
-    for (let category in categoryKeys) {
-        let element = document.getElementById(categoryKeys[category].id);
-        if (element !== null) {
-            element.innerHTML = categoryKeys[category].content;
+        if (musicEntries[x].fave == `yes`) {
+            categoryKeys.Fave.content += entry;
         }
+    
     }
+    
+    let element = document.getElementById("songsDump");
+      switch (type) {
+        case "favesList":
+          element.innerHTML = categoryKeys["Fave"].content; break;
+        case "originalList":
+          element.innerHTML = categoryKeys["Original"].content; break;
+        case "collabList":
+          element.innerHTML = categoryKeys["Collab"].content; break;
+        case "setList":
+          element.innerHTML = categoryKeys["Set"].content; break;
+        case "coverList":
+          element.innerHTML = categoryKeys["Cover"].content; break;
+        case "beatBattleList":
+          element.innerHTML = categoryKeys["Beat Battle"].content; break;
+        case "mixList":
+          element.innerHTML = categoryKeys["Mix"].content; break;
+        default:
+          element.innerHTML = categoryKeys[`all`].content; break;
+      }
   
 }
-  
-function typeSwitcher() {
-  // 1. identify the ID of the button pressed
-  // 2. print HTML within the "musicList-Rewriter" shell, with the new ID as the correct one to prompt a specific music roster generation
-  // 3. run compileMusicEntriesReal()
+
+function latestRelease() {
+  document.getElementById("latestReleaseImage").src = musicEntries[0].image;
+  document.getElementById("latestReleaseTitle").innerHTML = musicEntries[0].title;
+  document.getElementById("latestReleaseAlias").innerHTML = musicEntries[0].alias;
+  document.getElementById("latestReleaseLink").href = musicEntries[0].link;
+}
+
+function indexOnload() {
+  latestRelease();
+  updatesCompileIndex();
 }
   
   

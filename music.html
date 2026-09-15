@@ -7,7 +7,7 @@
     <link href="/newstyley.css" rel="stylesheet" type="text/css" media="all">
     <link href="/assets/icons/favicon.png" rel="icon" type="text/css">
   </head>
-  <body onload="compileMusicEntriesReal();" style="overflow: hidden;">
+  <body onload="compileMusicEntries();" style="overflow: hidden;">
   
   <div style="display: flex; height: 100vh;">
   
@@ -23,20 +23,20 @@
 
             <!-- 2 ( Nav Bar ) -->
             <div class="framey gapy" style="height: 95%; width: 20%; flex-direction: column; background-color: rgb(156, 156, 156, 0.0); align-items: center; justify-content: center; margin: auto;">
-                <button onclick="compileMusicEntriesReal();" class="plasticButton">My Faves</button>
-                <button onclick="compileMusicEntriesReal();" class="plasticButton">Originals</button>
-                <button onclick="compileMusicEntriesReal();" class="plasticButton">Collabs</button>
-                <button onclick="compileMusicEntriesReal();" class="plasticButton">Sets</button>
-                <button onclick="compileMusicEntriesReal();" class="plasticButton">Covers</button>
-                <button onclick="compileMusicEntriesReal();" class="plasticButton">Beat Battles</button>
-                <button onclick="compileMusicEntriesReal();" class="plasticButton">Mixes</button>
+                <button onclick="compileMusicEntries(`favesList`);" class="plasticButton">My Faves</button>
+                <button onclick="compileMusicEntries(`originalList`);" class="plasticButton">Originals</button>
+                <button onclick="compileMusicEntries(`collabList`);" class="plasticButton">Collabs</button>
+                <button onclick="compileMusicEntries(`setList`);" class="plasticButton">Sets</button>
+                <button onclick="compileMusicEntries(`coverList`);" class="plasticButton">Covers</button>
+                <button onclick="compileMusicEntries(`beatBattleList`);" class="plasticButton">Beat Battles</button>
+                <button onclick="compileMusicEntries(`mixList`);" id="mixesButton" class="plasticButton">Mixes</button>
             </div>
 
             <!-- a shell! (this is meant to give the js the ability to reload which ID is being used) -->
             <div id="musicList-Rewriter" style="width: 75%; height: 100%; display: flex; flex-direction: column; background-color: rgb(255, 255, 255, 0.0);">
 
                 <!-- 2 ( Song List! ) -->
-                <div id="allList" class="framey scrolly musiclist">
+                <div id="songsDump" class="framey scrolly musiclist">
 
                   <!-- 3 ( A Song Entry ) -->
                   <div>

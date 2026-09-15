@@ -10,6 +10,7 @@ const updateEntries = [
 {date:"2026 08 18", text:`Added the "section icons" to the "& More!" section! It's been a hassle designing a shape that I think will work, but this current interation seems workable with maybe a lil background asset :3` },
 {date:"2026 08 19", text:`Followed  <a href="https://www.youtube.com/watch?v=p1QU3kLFPdg">this lovely tutorial</a> to get this moved to github pages on my custom domain!!! exciting developments` },  
 {date:"2026 08 24", text:`HUGE one today!!! A rudimentary version of the music section is online. I wrote some JavaScript to turn a list of data into a list of clickable song entries! And I can change the type of list it generates in no time at all! Go me!!!` },
+{date:"2026 09 15", text:`Category buttons on music page work properly! The "latest release" section on this page works too! Basically all of the music page infrastructure shit is done. All design from this point on! Should be able to reuse some of that for the blog too, which is also exciting. Yippee!` },
 ]
 
 function updatesCompileIndex() {

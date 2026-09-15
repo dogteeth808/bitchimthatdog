@@ -25,7 +25,7 @@
     <link href="/newstyley.css" rel="stylesheet" type="text/css" media="all">
     <link href="/assets/icons/favicon.png" rel="icon" type="text/css">
   </head>
-  <body onload="updatesCompileIndex()" style="overflow: hidden;">
+  <body onload="indexOnload()" style="overflow: hidden;">
   
   <div style="display: flex; height: 100vh;">
   
@@ -53,7 +53,7 @@
         <!-- 3 (The Buttons In Question) -->
         <div class="framey" style="width: 100%; flex-direction: row; justify-content: flex-start;">
         <ul class="buttons" style="">
-          <li><a><img src="https://mentholgrrl.neocities.org/imageassets/8831/dogteeth_button3.png" title=""></a></li>
+          <li><a href=""><img src="https://mentholgrrl.neocities.org/imageassets/8831/dogteeth_button3.png" title=""></a></li>
           <li><a><img src="https://mentholgrrl.neocities.org/imageassets/8831/dogteeth_button3.png" title=""></a></li>
           <li><a><img src="https://mentholgrrl.neocities.org/imageassets/8831/dogteeth_button3.png" title=""></a></li>
           <li><a><img src="https://mentholgrrl.neocities.org/imageassets/8831/dogteeth_button3.png" title=""></a></li>
@@ -125,17 +125,17 @@
               <div class="framey paddedframe" style="gap: 10px; flex-direction: row; height: 112px;">
                 <!-- Track Image -->
                 <div class="framey" style="width: calc(100% / 3); background: green; aspect-ratio: 1 / 1;">
-                  <img src="/assets/squarecovers/trustfall.jpg" style="width: 100%; display: block;">
+                  <img id="latestReleaseImage" src="/assets/squarecovers/trustfall.jpg" style="width: 100%; display: block;">
                 </div>
                 <!-- Track Info -->
                 <div class="framey" style="width: calc((100% / 3) * 2); flex-direction: column; justify-content: flex-end;">
                   
                   <div style="flex-grow: 3; text-overflow: ellipsis; overflow-x: hidden; background-color: rgba(255,255,255,0.0); display: flex; align-items: flex-start; justify-content: space-evenly; flex-direction: column; padding-bottom: 5px;">
-                    <h1 style="text-overflow: ellipsis; white-space: nowrap;">GRILLMASTER2K</h1>
-                    <h2 style="overflow: hidden; text-overflow: ellipsis;">dogteeth</h2>
+                    <h1 id="latestReleaseTitle" style="text-overflow: ellipsis; white-space: nowrap;">GRILLMASTER2K</h1>
+                    <h2 id="latestReleaseAlias" style="overflow: hidden; text-overflow: ellipsis;">dogteeth</h2>
                   </div>
                   <div class="framey" style="font-size: 15px; align-items: center; border-top: 2px solid var(--genericborder); border-radius: 0px; padding-top: 5px; flex-grow: 2; text-wrap: nowrap;">
-                    <a style="font-size: 1.8vh;"><b>stream on <span style="margin: auto; color: #f50; display: inline-block; filter: drop-shadow(1px 1px 0.5px #000); font-size: 1.1em; transform: rotate(-2deg);">soundcloud</span></b></a>
+                    <a id="latestReleaseLink" href="https://soundcloud.com/4kcarpet" style="font-size: 1.8vh;"><b>stream on <span style="margin: auto; color: #f50; display: inline-block; filter: drop-shadow(1px 1px 0.5px #000); font-size: 1.1em; transform: rotate(-2deg);">soundcloud</span></b></a>
                   </div>
                 </div>
               </div>
@@ -156,10 +156,10 @@
                 <span style="">LATEST POST!</span>
               </div>
               
-              <!-- Track Spotlight -->
+              <!-- Blog Post Spotlight -->
               <div class="framey paddedframe" style="gap: 10px; flex-direction: row; height: 60%; padding-bottom: 5px; padding-top: 5px;">
               
-                <!-- Track Info -->
+                <!-- Blog Post Info -->
                 <div class="framey" style="flex-direction: column; justify-content: flex-start; width: 100%;">
                 
                   <div style="height: 0px; display: flex; justify-content: flex-end;">
@@ -328,6 +328,7 @@
   
   <script src="/data-entry/updates.js"></script>
   <script src="/javahell/scripts/themetest.js"></script>
+  <script src="/data-entry/music-masterlist.js"></script>
   <!-- <script src="/javahell/scripts/oneko.js"></script> -->
   </body>
 </html>
