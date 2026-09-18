@@ -24,7 +24,7 @@ function updatesCompileIndex() {
     
     update += `<div class="framey update">` + 
     `<span class="updateTimestamp"> ` + dateFormatted + `</span>` +
-    `<span>`+ updateEntries[x].text + `</span>` + `</div>`;
+    `<span class="updateText">`+ updateEntries[x].text + `</span>` + `</div>`;
   }
   document.getElementById("updatesBox").innerHTML = update;
 }

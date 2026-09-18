@@ -14,7 +14,9 @@
   --leftbarbg: rgba(154,138,235,1);
   --updatesbg: rgba(243,217,46,1);
   --rightbarbg: rgba(1,143,20,1);
-  --genericborder: rgba(0,0,0,0.4); }
+  --genericborder: rgba(0,0,0,0.4);
+  --typicalBorderWidth: 0.7vh;
+  --typicalDividerWidth: 0.35vh; }
   
 /* inherents! */
 /*
@@ -30,8 +32,8 @@ body::before{ content: ""; position: fixed; z-index: -1; margin: auto;
   top: -7%; left: -30%; width: 400%; height: 400vh; transform: rotate(4deg); 
   background-image: url(https://d0gteeeth.neocities.org/assets/backgrounds/dogteethfragment2.png);  
 }
-h1{margin: 0px; font-size: 18px;}
-h2{margin: 0px; font-size: 14px;}
+h1{margin: 0px; font-size: 2vh;}
+h2{margin: 0px; font-size: 1.6vh;}
 
 a:link { color: rgba(0,0,0,0.8); }
 a:visited { color: rgba(0,0,0,0.8); }
@@ -44,28 +46,28 @@ a { text-decoration: none; }
   
 /*generic frame setting. used as many layers*/
 .framey { position: relative; display: flex; justify-content: space-evenly;
-  border-radius: 10px; font-size: 16px;}
+  border-radius: 10px; font-size: 1.8vh}
   
 /*space between frames*/
 .gapy { gap: 1.5vh; }
 
 /*for the "outer" element of the visible frame, makes content inside feel like it fits*/
 .outerframe { box-sizing: border-box; flex-direction: column; justify-content: flex-start; 
-  border: 5px solid var(--genericborder); }
+  border: var(--typicalBorderWidth) solid var(--genericborder); }
 .paddedframe { box-sizing: border-box; justify-content: flex-start; flex-direction: column;
-  padding: 10px; gap: 10px; }
+  padding: 1vh; gap: 1vh; }
   
 /*makes element scrollable vertically*/
 .scrolly { overflow-y: auto; height: 95%; }
 
 /* cool fadeout on a scrolly */
 .fadey { position: absolute; background-position: center bottom; background-repeat: no-repeat; 
-  z-index: 2; top: 0; left: 0; width: 100%; height: 100%; background-size: 100% 50px; pointer-events: none; }
+  z-index: 2; top: 0; left: 0; width: 100%; height: 100%; background-size: 100% 5vh; pointer-events: none; }
   
 .titleplate {
   width: 100%; font-size: 1.5em; 
   text-align: start; 
-  border-bottom: 2px solid var(--genericborder); border-radius: 0px; }
+  border-bottom: var(--typicalDividerWidth) solid var(--genericborder); border-radius: 0px; }
   
 .candy { position: absolute; z-index: 2; }
 .hoverpop { transition: transform .1s; }
@@ -116,7 +118,8 @@ a { text-decoration: none; }
   padding-bottom: 5px;
   font-size: 14px; }
 .update > span { text-align: start; }
-.updateTimestamp { font-size: 0.7em; }
+.updateTimestamp { font-size: 1.15vh; }
+.updateText {font-size: 1.5vh;}
 
 /* code taken from "Button 91" off this website - https://getcssscan.com/css-buttons-examples // yeah it's been modified, but i still don't fully understand radial gradient shenanigans so idk bro */
 .plasticButton {
