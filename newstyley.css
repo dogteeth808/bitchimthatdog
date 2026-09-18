@@ -84,7 +84,7 @@ a { text-decoration: none; }
 /* this is the row of buttons on the main page! the 88x31s */
 .buttons { width: 100%; display: grid; list-style: none; grid-template-columns: repeat(2, 1fr); padding: 0; justify-content: center; column-gap: 0px; margin: auto;}
 .buttons > li { margin-bottom: 0px; display: flex; justify-content: center;}
-.buttons > li > a {display: flex; justify-content: center;}
+.buttons > li > a {display: flex; justify-content: center; width: 100%;}
 .buttons > li > a > img { border: 2px solid var(--genericborder); width: 94%;}
 
 /* this is the tickbox on the theme switcher on the main page */
