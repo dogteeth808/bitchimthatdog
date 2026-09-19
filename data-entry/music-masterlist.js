@@ -2515,7 +2515,7 @@ function compileMusicEntries(type) {
         entry += `
             <!-- title -->
             <div style="padding-bottom: 0.5%;">
-                <div style="font-size: 220%; line-height: 0.9em; margin-left: -0.2%;">` +
+                <div style="font-size: 210%; line-height: 0.8em; margin-left: -0.2%;">` +
                     musicEntries[x].title + `
                 </div>
             </div>`;
