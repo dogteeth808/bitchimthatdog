@@ -12,17 +12,17 @@
   <div style="display: flex; height: 100vh;">
   
     <!-- 1 ( our main 4:3 viewport) -->
-    <div class="framey pageframe" style="flex-direction: row; background-color: rgb(254,78,126); gap: 1vh; height: 90vh;">
+    <div class="framey pageframe" style="flex-direction: row; height: 87vh; border-radius: 5%; color: rgba(0,0,0,0); background-image: url(/assets/backgrounds/plasticTexture4.jpg); background-color: rgb(254,78,126);">
     <div class="funborders" style="height: 10%; left: -0.4%; top: -4.7%; width: 101%; border-left: 0; border-right: 0; border-bottom: 0;"></div>
     <div class="funborders" style="width: 10%; left: -5%; height: 100%; border-top: 0;  border-right: 0; border-bottom: 0;"></div>
     <div class="funborders" style="width: 10%; left: 95%; height: 100%; border-top: 0; border-left: 0; border-bottom: 0;"></div>
     <div class="funborders" style="height: 10%; left: -0.4%; top: 94.5%; width: 101%; border-top: 0; border-left: 0; border-right: 0;"></div>
         
         <!-- a shell! (helps shape the general fun ipad shape) -->
-        <div style="flex-direction: row; padding: 2vh; gap: 5vh; display: flex; align-items: flex-end;">
+        <div style="flex-direction: row; padding: 1vh; gap: 5vh; display: flex; align-items: flex-end;">
 
             <!-- 2 ( Nav Bar ) -->
-            <div class="framey gapy" style="height: 95%; width: 20%; flex-direction: column; background-color: rgb(156, 156, 156, 0.0); align-items: center; justify-content: center; margin: auto;">
+            <div class="framey gapy" style="height: 98%; width: 20%; flex-direction: column; background-color: rgb(156, 156, 156, 0.0); align-items: center; justify-content: center; margin: auto;">
                 <button onclick="compileMusicEntries(`favesList`);" class="plasticButton">My Faves</button>
                 <button onclick="compileMusicEntries(`originalList`);" class="plasticButton">Originals</button>
                 <button onclick="compileMusicEntries(`collabList`);" class="plasticButton">Collabs</button>
@@ -33,10 +33,12 @@
             </div>
 
             <!-- a shell! (this is meant to give the js the ability to reload which ID is being used) -->
-            <div id="musicList-Rewriter" style="width: 75%; height: 100%; display: flex; flex-direction: column; background-color: rgb(255, 255, 255, 0.0);">
+            <div id="musicList-Rewriter" style="width: 78%; height: 100%; display: flex; flex-direction: column; background-color: rgb(255, 255, 255, 0.0); justify-content: center; z-index: 5;">
+                
+                <div style="position: absolute; background-image: url(/assets/backgrounds/screenTexture2.jpg); right: 1.6%; width: 73.4%; height: 91%; z-index: 5; opacity: 0.07; pointer-events: none;"></div>
 
                 <!-- 2 ( Song List! ) -->
-                <div id="songsDump" class="framey scrolly musiclist">
+                <div id="songsDump" class="framey scrolly musiclist" style="height: 94%;">
 
                   <!-- 3 ( A Song Entry ) -->
                   <div>
@@ -294,15 +296,13 @@
                       <div style="border-bottom: 2px solid var(--genericborder); margin: auto; width: 95%;"></div>
                   </div>
 
-                </div>
+                </div> 
 
-                </div>
+                </div></div>
 
         </div>
         
     </div>
-    
-  </div>
   
   <script src="/data-entry/music-masterlist.js"></script>
   <!-- <script src="/javahell/scripts/oneko.js"></script> -->
