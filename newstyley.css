@@ -91,6 +91,7 @@ a { text-decoration: none; }
 .themebutton { flex-grow: 1; width: 100%; flex-direction: column; justify-content: space-evenly; }
 .themebutton > div { width: 100%; justify-content: flex-start; font-size: 13px; gap: 3%; }
 .themebutton > div > button { width: 10%; aspect-ratio: 1 / 1; background: var(--genericborder); border: 3px solid var(--genericborder);}
+.themebutton > div > span { font-size: 1.45vh; }
 
 /* variables largely used in the music list generation script! very epic */
 .musiclist { padding: 0%; display: flex; flex-direction: column; justify-content: flex-start; height: 100%; border: inset 1vh rgba(208, 71, 109, 0.5); filter: brightness(103%) blur(0.4px) contrast(110%);}
