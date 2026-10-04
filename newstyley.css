@@ -142,7 +142,7 @@ transform: scale(1.00); transition: transform 0.2s; }
   user-select: none; -webkit-user-select: none; touch-action: manipulation; cursor: pointer;
 }
   
-
+.cautiontape{ pointer-events: none; position: fixed; width: 700vh; height: 15vh; background-image: repeating-linear-gradient(60deg, var(--blogbg) 0 1%, black 0 2%); z-index: 10; }
 
 
 

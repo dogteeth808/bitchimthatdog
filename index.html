@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -28,6 +28,8 @@
   <body onload="indexOnload()" style="overflow: hidden;">
   
   <div style="display: flex; height: 100vh;">
+    <div id="disclaimer" style="position: fixed; z-index: 10; width: 100vw; height: 100vh; pointer-events: none;">
+    </div>
   
     <!-- 1 -->
     <div class="framey gapy pageframe" style="flex-direction: row;">
@@ -180,7 +182,7 @@
                     <h2 id="latestReleaseAlias" style="overflow: hidden; text-overflow: ellipsis;">dogteeth</h2>
                   </div>
                   <div class="framey" style="align-items: center; border-top: var(--typicalDividerWidth) solid var(--genericborder); border-radius: 0px; flex-grow: 2; text-wrap: nowrap; justify-content: flex-start;">
-                    <a id="latestReleaseLink" href="https://soundcloud.com/4kcarpet" style="font-size: 1.75vh;"><b>stream on <span style="margin: auto; color: #f50; display: inline-block; filter: drop-shadow(1px 1px 0.5px #000); font-size: 1.1em; transform: rotate(-2deg);">soundcloud</span></b></a>
+                    <a target=_blank id="latestReleaseLink" href="https://soundcloud.com/4kcarpet" style="font-size: 1.75vh;"><b>stream on <span style="margin: auto; color: #f50; display: inline-block; filter: drop-shadow(1px 1px 0.5px #000); font-size: 1.1em; transform: rotate(-2deg);">soundcloud</span></b></a>
                   </div>
                 </div>
               </div>
@@ -392,11 +394,12 @@
     
     </div>
     
-  </div>
+    </div>
   
   <script src="/data-entry/updates.js"></script>
   <script src="/javahell/scripts/themetest.js"></script>
   <script src="/data-entry/music-masterlist.js"></script>
+  <script src="javahell/scripts/index-suite.js"></script>
   <!-- <script src="/javahell/scripts/oneko.js"></script> -->
   </body>
 </html>

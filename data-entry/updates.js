@@ -12,6 +12,7 @@ const updateEntries = [
 {date:"2026 08 24", text:`HUGE one today!!! A rudimentary version of the music section is online. I wrote some JavaScript to turn a list of data into a list of clickable song entries! And I can change the type of list it generates in no time at all! Go me!!!` },
 {date:"2026 09 15", text:`Category buttons on music page work properly! The "latest release" section on this page works too! Basically all of the music page infrastructure shit is done. All design from this point on! Should be able to reuse some of that for the blog too, which is also exciting. Yippee!` },
 {date:"2026 09 21", text:`Buttons are now not just me a billion times. A lot more units are based on VH. New "keyboard" images beside Music and Blog on the index, and some experimental texturing on the music page!` },
+{date:"2026 10 04", text:`Happy October! I now have all my main links on here, a "Listen To" section for the song i've been looping most recently, changed how the buttons work, and added a disclaimer that remembers that you already clicked it!` },
 ]
 
 function updatesCompileIndex() {

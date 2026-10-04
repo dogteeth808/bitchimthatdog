@@ -12,6 +12,62 @@ const musicEntries = [
  //  tags:`epic // swag // music`,
  //  date:`00/00/2026`
  //},
+  
+{
+   link:`https://soundcloud.com/mynnteatwo/vegas`,
+   image:`https://i1.sndcdn.com/artworks-UCM9eNPcgwbrvpWl-Hxet4g-t500x500.jpg`,
+   title:`vegas`,
+   type:`Beat Battle`,
+   mixType:``,
+   collabType:``,
+   alias2:``,
+   alias:`mynntea`,
+   fave:`no`,
+   tags:`"subway surfers sample pack"`,
+   date:`10/03/2026`
+ },
+  
+{
+   link:`https://soundcloud.com/mynnteatwo/o-revenant`,
+   image:`https://i1.sndcdn.com/artworks-Jt40w3xok7Htsfrt-rMefSg-t500x500.jpg`,
+   title:`O' Revenant`,
+   type:`Beat Battle`,
+   mixType:``,
+   collabType:``,
+   alias2:``,
+   alias:`mynntea`,
+   fave:`no`,
+   tags:`">60 BPM"`,
+   date:`09/26/2026`
+ },
+
+  {
+  link:`https://ultrapop.bandcamp.com/track/any-any-dogteeth-heart-fall-south`,
+  image:`https://f4.bcbits.com/img/a4031931463_2.jpg`,
+  title:`Heart Fall South`,
+  type:`Collab`,
+  collabType:`Team`,
+  alias2:`Any-Any`,
+  alias:`dogteeth`,
+  fave:`no`,
+  tags:`Ultrapop`,
+  date:`09/20/2026`
+  },
+  
+  {
+   link:`https://soundcloud.com/mynnteatwo/malaise`,
+   image:`https://i1.sndcdn.com/artworks-U9yUCLoebVb1wojE-Afg3wg-t500x500.jpg`,
+   title:`malaise`,
+   type:`Beat Battle`,
+   mixType:``,
+   collabType:``,
+   alias2:``,
+   alias:`mynntea`,
+   fave:`no`,
+   tags:`"forced consolidation"`,
+   date:`09/19/2026`
+ },
+  
 {
    link:`https://soundcloud.com/mynnteatwo/1billionimpressions`,
    image:`https://i1.sndcdn.com/artworks-E3eKm3i4O6k5XZvR-zKxiMA-t500x500.png`,
@@ -25,6 +81,7 @@ const musicEntries = [
    tags:`"loud ass 808"`,
    date:`09/13/2026`
  },
+  
 {
    link:`https://soundcloud.com/mynnteatwo/horizon-lines`,
    image:`https://i1.sndcdn.com/artworks-L9LJKZVPIbBQlCkf-oemceg-t500x500.jpg`,
@@ -38,6 +95,7 @@ const musicEntries = [
    tags:`"use a new plugin"`,
    date:`09/05/2026`
  },
+  
 {
    link:`https://soundcloud.com/mynnteatwo/mind-field-parody-of`,
    image:`https://i1.sndcdn.com/artworks-7Z3yWqTg23WCQInn-k8uTNA-t500x500.jpg`,
@@ -51,6 +109,7 @@ const musicEntries = [
    tags:`Parody (underscores - Lovefield) // Genuine Masterpiece`,
    date:`08/29/2026`
  },
+  
 {
    link:`https://soundcloud.com/mynnteatwo/battleprayer`,
    image:`https://i1.sndcdn.com/artworks-VPeJuZ9t8cVmeRH7-StCW8g-t500x500.png`,
@@ -64,6 +123,7 @@ const musicEntries = [
    tags:`"mic only"`,
    date:`08/15/2026`
  },
+  
 {
    link:`https://soundcloud.com/mynnteatwo/carpet`,
    image:`https://i1.sndcdn.com/artworks-oTI1e7wwFRMPWbn4-aVBWMQ-t500x500.png`,
@@ -97,7 +157,7 @@ const musicEntries = [
   mixType:``,
   collabType:``,
   alias2:``,
-  alias:`mynnteatwo`,
+  alias:`mynntea`,
   fave:`no`,
   tags:`"make penis music"`,
   date:`07/26/2026`
@@ -108,7 +168,7 @@ const musicEntries = [
   image:`https://i1.sndcdn.com/artworks-U2FE5kihToMpQRt3-k40bZQ-t500x500.png`,
   title:`keep em guessin`,
   type:`Beat Battle`,
-  alias:`mynnteatwo`,
+  alias:`mynntea`,
   fave:`yes`,
   tags:``,
   date:`07/19/2026`
@@ -143,7 +203,7 @@ const musicEntries = [
   image:`https://i1.sndcdn.com/artworks-4mKuNGq6D7hmTDAO-vjzXmw-t500x500.png`,
   title:`GOD SMITE AMERICA`,
   type:`Beat Battle`,
-  alias:`mynnteatwo`,
+  alias:`mynntea`,
   fave:`no`,
   tags:``,
   date:`07/04/2026`
@@ -155,7 +215,7 @@ const musicEntries = [
   image:`https://i1.sndcdn.com/artworks-gjzHWVFsNu6HFHbt-EYCTKA-t500x500.png`,
   title:`o t h e r w o r l d`,
   type:`Beat Battle`,
-  alias:`mynnteatwo`,
+  alias:`mynntea`,
   fave:`no`,
   tags:``,
   date:`06/22/2026`
@@ -181,7 +241,7 @@ const musicEntries = [
   image:`https://i1.sndcdn.com/artworks-goLAQThPlgrGDPbN-bbGlGQ-t500x500.png`,
   title:`ELLIEEE_160IDKWHATKEY`,
   type:`Beat Battle`,
-  alias:`mynnteatwo`,
+  alias:`mynntea`,
   fave:`yes`,
   tags:``,
   date:`06/13/2026`
@@ -220,7 +280,7 @@ const musicEntries = [
   image:`https://i1.sndcdn.com/artworks-4VImMK8xy9idg9FW-FzdE4Q-t500x500.png`,
   title:`REDLINE`,
   type:`Beat Battle`,
-  alias:`mynnteatwo`,
+  alias:`mynntea`,
   fave:`yes`,
   tags:``,
   date:`05/10/2026`
@@ -232,7 +292,7 @@ const musicEntries = [
   image:`https://i1.sndcdn.com/artworks-G7a94UN6xOJBrBES-jK4sNw-t500x500.png`,
   title:`disappearing act`,
   type:`Beat Battle`,
-  alias:`mynnteatwo`,
+  alias:`mynntea`,
   fave:`yes`,
   tags:``,
   date:`05/09/2026`
@@ -244,7 +304,7 @@ const musicEntries = [
   image:`https://i1.sndcdn.com/artworks-zhTrXHs4L5wrIjQU-zQW3oQ-t500x500.jpg`,
   title:`CRUSH ME UP!!!`,
   type:`Beat Battle`,
-  alias:`mynnteatwo`,
+  alias:`mynntea`,
   fave:`yes`,
   tags:``,
   date:`04/26/2026`
@@ -284,7 +344,7 @@ const musicEntries = [
   image:`https://i1.sndcdn.com/artworks-vjvMhc3znWGSCOR7-rEuZnQ-t500x500.png`,
   title:`ONEMORERUN`,
   type:`Beat Battle`,
-  alias:`mynnteatwo`,
+  alias:`mynntea`,
   fave:`yes`,
   tags:``,
   date:`04/18/2026`
@@ -296,7 +356,7 @@ const musicEntries = [
   image:`https://i1.sndcdn.com/artworks-G1Mz3SH10kLsrf4I-2VkIkg-t500x500.png`,
   title:`w shrambient`,
   type:`Beat Battle`,
-  alias:`mynnteatwo`,
+  alias:`mynntea`,
   fave:`no`,
   tags:``,
   date:`04/15/2026`
@@ -308,7 +368,7 @@ const musicEntries = [
   image:`https://i1.sndcdn.com/artworks-iYBJlyUAxQ2k4mT8-wBMfXA-t500x500.jpg`,
   title:`tomodachi`,
   type:`Beat Battle`,
-  alias:`mynnteatwo`,
+  alias:`mynntea`,
   fave:`no`,
   tags:``,
   date:`04/12/2026`
@@ -320,7 +380,7 @@ const musicEntries = [
   image:`https://i1.sndcdn.com/artworks-9GE4QMe8lnDcDnYq-XGP8ig-t500x500.png`,
   title:`lurk`,
   type:`Beat Battle`,
-  alias:`mynnteatwo`,
+  alias:`mynntea`,
   fave:`no`,
   tags:``,
   date:`04/11/2026`
@@ -346,7 +406,7 @@ const musicEntries = [
   image:`https://i1.sndcdn.com/artworks-jwPpdjozi82o3QWZ-u6wJdQ-t500x500.png`,
   title:`computer go la la la`,
   type:`Beat Battle`,
-  alias:`mynnteatwo`,
+  alias:`mynntea`,
   fave:`no`,
   tags:``,
   date:`04/04/2026`
@@ -371,7 +431,7 @@ const musicEntries = [
   image:`https://i1.sndcdn.com/artworks-yIrz3DXbMVwma37y-91S8oQ-t500x500.png`,
   title:`put me together`,
   type:`Beat Battle`,
-  alias:`mynnteatwo`,
+  alias:`mynntea`,
   fave:`no`,
   tags:``,
   date:`03/28/2026`
@@ -383,7 +443,7 @@ const musicEntries = [
   image:`https://i1.sndcdn.com/artworks-6TIF63BbZrDnpBX3-oeTwIg-t500x500.png`,
   title:`CAKE [prod. peril]`,
   type:`Beat Battle`,
-  alias:`mynnteatwo`,
+  alias:`mynntea`,
   fave:`yes`,
   tags:``,
   date:`03/26/2026`
@@ -2578,10 +2638,6 @@ function latestRelease() {
   document.getElementById("latestReleaseLink").href = musicEntries[0].link;
 }
 
-function indexOnload() {
-  latestRelease();
-  updatesCompileIndex();
-}
   
   
   
