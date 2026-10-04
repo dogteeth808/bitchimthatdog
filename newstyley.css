@@ -77,21 +77,27 @@ a { text-decoration: none; }
 /* "template" for a 4/3 style page, like the homepage, or music. provides a canvas for the rest of the elements */
 .pageframe { height: 96vh; margin: auto; aspect-ratio: 4 / 3; justify-content: flex-start; box-sizing: border-box; }
 
-/* SPECIFICS */
+/* SPECIFI{"path":"/tauri/D/complex projects/dogteeth/2026 website rehaul/bitchimthatdog/newstyley.css"}CS */
 /*
 */
 
 /* this is the row of buttons on the main page! the 88x31s */
-.buttons { width: 100%; display: grid; list-style: none; grid-template-columns: repeat(2, 1fr); padding: 0; justify-content: center; column-gap: 0px; margin: auto;}
-.buttons > li { margin-bottom: 0px; display: flex; justify-content: center;}
-.buttons > li > a {display: flex; justify-content: center; width: 100%;}
-.buttons > li > a > img { border: 0.3vh solid var(--genericborder); width: 90%;}
+.buttons { width: 100%; display: flex; flex-direction: column; justify-content: flex-start; flex-wrap: wrap;}
+.buttons > div {display: flex; flex-direction: row; justify-content: space-evenly; flex-wrap: wrap;}
+.buttons > div > a {display: flex; width: 9.4vh; margin-bottom: 0.4vh;}
+.buttons > div > a > img { border: 0.3vh solid var(--genericborder); width: 100%;}
 
 /* this is the tickbox on the theme switcher on the main page */
 .themebutton { flex-grow: 1; width: 100%; flex-direction: column; justify-content: space-evenly; }
 .themebutton > div { width: 100%; justify-content: flex-start; font-size: 13px; gap: 3%; }
-.themebutton > div > button { width: 10%; aspect-ratio: 1 / 1; background: var(--genericborder); border: 3px solid var(--genericborder);}
+.themebutton > div > button { width: 2vh; aspect-ratio: 1 / 1; background: var(--genericborder); border: 0.4vh solid var(--genericborder);}
 .themebutton > div > span { font-size: 1.45vh; }
+
+/* button size for socials */
+.externalsbutton { height: 20%; display: flex; justify-content: center; align-items: center;
+transform: scale(1.00); transition: transform 0.2s; }
+.externalsbutton > img { height: 90%; }
+.externalsbutton:hover { transform: scale(1.10) rotate(-0.02turn); transition: transform 0.2s; }
 
 /* variables largely used in the music list generation script! very epic */
 .musiclist { padding: 0%; display: flex; flex-direction: column; justify-content: flex-start; height: 100%; border: inset 1vh rgba(208, 71, 109, 0.5); filter: brightness(103%) blur(0.4px) contrast(110%);}
