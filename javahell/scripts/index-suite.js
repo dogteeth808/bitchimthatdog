@@ -3,7 +3,7 @@ const disclaimerStuff = `
     <div class="cautiontape" style="transform: translate(-50%, -50%) rotate(10deg); top: 48%; left: 50%;"></div>
     <div class="cautiontape" style="transform: translate(-50%, -50%) rotate(-26deg); top: 26%; left: 50%;"></div>
     <div class="cautiontape" style="transform: translate(-50%, -50%) rotate(-12deg); top: 69%; left: 50%;"></div>
-    <div class="framey outerframe" style="position: fixed; transform: translate(50%, 18%); width: 50vw; height: 75vh; background-color: var(--blogbg); z-index: 10; border: calc(var(--typicalBorderWidth)*3) solid black; text-align: center; display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 3%;">
+    <div class="framey outerframe cautionDisclaimer">
         <span style="font-size: 7vh;"><b>HEY YOU!!!!</b></span>
         <span style="font-size: 1.9vh;"><br>
         You're about to enter my unfinished realm of whimsy...<br><br>

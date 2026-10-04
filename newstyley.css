@@ -143,6 +143,16 @@ transform: scale(1.00); transition: transform 0.2s; }
 }
   
 .cautiontape{ pointer-events: none; position: fixed; width: 700vh; height: 15vh; background-image: repeating-linear-gradient(60deg, var(--blogbg) 0 1%, black 0 2%); z-index: 10; }
-
+.cautionDisclaimer { position: fixed; width: 50vw; height: 75vh; padding: 3%; transform: translate(50%, 18%); z-index: 10; 
+ text-align: center; display: flex; flex-direction: column; justify-content: center; align-items: center; 
+ background-color: var(--blogbg); border: calc(var(--typicalBorderWidth)*3) solid black; }
+@media screen and (max-width:1050px) {
+.cautionDisclaimer { width: 80vw; padding: 3%; transform: translate(14%, 18%); 
+  border: calc(var(--typicalBorderWidth)*3) solid black; }
+}
+@media screen and (max-width:460px) {
+.cautionDisclaimer { height: 90vh; padding: 3%; transform: translate(14%, 6%); 
+  border: calc(var(--typicalBorderWidth)*3) solid black; }
+}
 
 
