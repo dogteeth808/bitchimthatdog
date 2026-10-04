@@ -22,6 +22,10 @@
 /*
 */
 
+@font-face {
+  font-family: "Nunito"; src: url(/assets/Nunito-Bold.ttf);
+}
+
 body { font-family: "Nunito"; src: url(https://d0gteeeth.neocities.org/Nunito_Bold.ttf);
   margin: 0px; transform: rotate(0deg);
   background-color: white; color: rgba(0,0,0,0.7); box-sizing: border-box; background-position: 10% 0%;
@@ -82,10 +86,10 @@ a { text-decoration: none;}
 */
 
 /* this is the row of buttons on the main page! the 88x31s */
-.buttons { width: 100%; display: flex; flex-direction: column; justify-content: flex-start; flex-wrap: wrap;}
+.buttons { width: 100%; display: flex; flex-direction: column; justify-content: flex-start; flex-wrap: wrap; margin-top: 0.4vh;}
 .buttons > div {display: flex; flex-direction: row; justify-content: space-evenly; flex-wrap: wrap;}
 .buttons > div > a {display: flex; width: 9.4vh; margin-bottom: 0.4vh;}
-.buttons > div > a > img { border: 0.3vh solid var(--genericborder); width: 100%;}
+.buttons > div > a > img { border: 0.3vh solid var(--genericborder); width: 100%; image-rendering: pixelated;}
 
 /* this is the tickbox on the theme switcher on the main page */
 .themebutton { flex-grow: 1; width: 100%; flex-direction: column; justify-content: space-evenly; }
