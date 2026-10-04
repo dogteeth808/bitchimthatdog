@@ -16,7 +16,6 @@ const disclaimerStuff = `
 </div>`
 
 function disclaimerSwitch(status) {
-    debugger;
     if (localStorage.getItem("disclaimerClicked") != "yes") {
         let element = document.getElementById("disclaimer");
         switch (status) {
