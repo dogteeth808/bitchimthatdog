@@ -89,7 +89,8 @@ a { text-decoration: none;}
 .buttons { width: 100%; display: flex; flex-direction: column; justify-content: flex-start; flex-wrap: wrap; margin-top: 0.4vh;}
 .buttons > div {display: flex; flex-direction: row; justify-content: space-evenly; flex-wrap: wrap;}
 .buttons > div > a {display: flex; width: 9.4vh; margin-bottom: 0.4vh;}
-.buttons > div > a > img { border: 0.3vh solid var(--genericborder); width: 100%; image-rendering: pixelated;}
+.buttons > div > a > img { border: 0.3vh solid var(--genericborder); width: 100%;}
+/*image-rendering: pixelated;*/
 
 /* this is the tickbox on the theme switcher on the main page */
 .themebutton { flex-grow: 1; width: 100%; flex-direction: column; justify-content: space-evenly; }
