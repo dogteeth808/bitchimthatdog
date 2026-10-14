@@ -32,5 +32,6 @@ function disclaimerSwitch(status) {
 function indexOnload() {
     disclaimerSwitch("on");
     latestRelease();
-    updatesCompileIndex();
+    updateCompileIndex();
+    listenToLatest();
 }

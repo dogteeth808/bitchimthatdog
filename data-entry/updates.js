@@ -14,9 +14,29 @@ const updateEntries = [
 {date:"2026 09 21", text:`Buttons are now not just me a billion times. A lot more units are based on VH. New "keyboard" images beside Music and Blog on the index, and some experimental texturing on the music page!` },
 {date:"2026 10 04", text:`Happy October! I now have all my main links on here, a "Listen To" section for the song i've been looping most recently, changed how the buttons work, and added a disclaimer that remembers that you already clicked it!` },
 {date:"2026 10 13", text:`"Art" button now goes to a rudimentary proof of concept. Click on the painting to go to the old site's art page!` },
-]
+];
+const listenToEntries = [
+  { link:`https://soundcloud.com/petalsupply/anyway-heres-1`, image:`https://i1.sndcdn.com/artworks-hLbZFhaConjks4fU-fNLPOQ-t500x500.jpg`,
+    date:`2026 10 13`, alias: `Petal Supply, umru, Himera, trndytrndy`, title:`1` },
+  
+  { link:`https://soundcloud.com/frostchildren/2-love`, image:`https://i1.sndcdn.com/artworks-SowYo07hKLZo-0-t500x500.jpg`,
+    date:`2026 10 09`, alias: `Frost Children`, title:`2 LØVE` },
+  
+  { link:`https://soundcloud.com/foodhousefoodhouse/foresight`, image:`https://i1.sndcdn.com/artworks-iXWl1LPYFjGG-0-t500x500.jpg`,
+    date:`2026 10 07`, alias: `food house`, title:`foresight` },
+  
+  { link:`https://www.youtube.com/watch?v=mVKIva2KddY`, image:`assets/squarecovers/aaron_neilcic.jpg`,
+    date:`2026 10 06`, alias: `Neil Cicierega`, title:`Aaron` },
+  
+  { link:`https://soundcloud.com/sparklecore/therian-saint-jude`, image:`https://i1.sndcdn.com/artworks-rJAXVGSm5OAVAByr-patFQw-t500x500.jpg`,
+    date:`2026 10 04`, alias: `sixwing, gupi`, title:`THERIAN SAINT JUDE` },
+  
+  { link:`https://soundcloud.com/lipcritic/jackpot`, image:`https://i1.sndcdn.com/artworks-Zht7B4MdHyrt-0-t500x500.jpg`,
+    date:`2026 10 03`, alias: `Lip Critic`, title:`Jackpot` },
+];
 
-function updatesCompileIndex() {
+function updateCompileIndex() {
+  debugger;
   let update = "";
   let dateSplit = "";
   let dateFormatted = "";
@@ -30,4 +50,12 @@ function updatesCompileIndex() {
     `<span class="updateText">`+ updateEntries[x].text + `</span>` + `</div>`;
   }
   document.getElementById("updatesBox").innerHTML = update;
+}
+
+function listenToLatest() {
+  debugger;
+  document.getElementById("listenToImage").style.backgroundImage = `url("` += listenToEntries[0].image += `")`;
+  document.getElementById("listenToTitle").innerHTML = listenToEntries[0].title;
+  document.getElementById("listenToAlias").innerHTML = listenToEntries[0].alias;
+  document.getElementById("listenToLink").href = listenToEntries[0].link;
 }

@@ -1,3 +1,36 @@
+const musicEntryStructure = [
+  `<div>
+    <a href="`,      `" target="_blank">
+    
+      <div class="gapy musicEntryShell">
+          <!-- // IMAGE // -->
+          <div style="aspect-ratio: 1/1; height: 100%;">
+              <img src="`,      `" style="height: 100%;">
+          </div>
+
+          <div class="musicEntryText">
+          <!-- // DATE // -->
+              <div style="display: block; width: 100%; height: 0%; text-align: end; line-height: 0.9;">`,      `</div>
+              
+          <!-- // ALIAS PT 1 // -->
+              <div style="padding-bottom: 0.5%; justify-content: center; height: 30%;">
+                  <div style="width: 100%; font-size: 110%; text-align: start;">`,      `</div>
+              </div>`,      `
+      
+          <!-- // TITLE // -->
+              <div style="padding-bottom: 0.5%;">
+                  <div style="font-size: 210%; line-height: 0.8em; margin-left: -0.2%;">`,      `</div>
+              </div>
+              
+          <!-- // TAGS // -->
+              <div style="flex-grow: 1; justify-content: flex-end;">
+                  <div>`,      `</div>
+              </div>
+          </div>
+      </div>
+    </a>
+  </div>`
+];
 const musicEntries = [
  //{
  //  link:``,
@@ -5,13 +38,27 @@ const musicEntries = [
  //  title:``,
  //  type:`Collab, Cover, Mix, Original, Beat Battle, Set`,
  //  mixType:`Remix, Mashup, Shitpost`,
- //  collabType:`Main, Feature, Band`,
+ //  collabType:`Team, Feature, Band`,
  //  alias2:`Feature (or Original Artist, in case of Cover/Remix)`,
  //  alias:`Main Artist`,
  //  fave:`no`,
  //  tags:`epic // swag // music`,
  //  date:`00/00/2026`
  //},
+
+{
+   link:`https://soundcloud.com/sleepyzone/dogteeth-eris-mirror-raingirl-t4teeth-lostfound-28`,
+   image:`https://i1.sndcdn.com/artworks-AjzGbSMjX8VoKndG-KJG7Lg-t500x500.jpg`,
+   title:`lost+found`,
+   type:`Collab`,
+   mixType:``,
+   collabType:`Team`,
+   alias2:`eris mirror, raingirl, t4teeth`,
+   alias:`dogteeth`,
+   fave:`yes`,
+   tags:`sleepy.zone // in the big 26 !?`,
+   date:`10/10/2026`
+ },
   
 {
    link:`https://soundcloud.com/mynnteatwo/vegas`,
@@ -2519,6 +2566,7 @@ const musicEntries = [
   tags:`Bosca Ceoil`,
   date:`02/20/2022`
 }];
+let alias = '';
 
 function compileMusicEntries(type) {
   
@@ -2534,72 +2582,41 @@ function compileMusicEntries(type) {
         all: {id:"allList", content:""},
     };
     
+    // processes data into a nice entry, and deposits that entry to the category it belongs in
     for (let x = 0; x < musicEntries.length; x++) {
+      
+        // same for every entry. formats the link, image, and date.
+        let entry =
+          musicEntryStructure[0] + 
+              musicEntries[x].link +
+          musicEntryStructure[1] +
+              musicEntries[x].image +
+          musicEntryStructure[2] +
+              musicEntries[x].date +
+          musicEntryStructure[3];
+      
+        // alias formatting is complex, this activates it, plus recycles the variable for use in the next loop
+        aliasSubRoutine(x);
+        entry += alias += musicEntryStructure[4]; alias = '';
         
-        // 1 ) It's All The Same
-        let entry = `
-        <!-- 3 ( A Song Entry ) -->
-        <div>
-            <a href="` + musicEntries[x].link + `" target="_blank">
-            <!-- a "shell" for the real content -->
-            <div class="gapy musicEntryShell">
-                <!-- 4 ( A Song Image ) -->
-                <div style="aspect-ratio: 1/1; height: 100%;">
-                    <img src="` + musicEntries[x].image + `" style="height: 100%;">
-                </div>
-                    <!-- 4 ( Text Field! ) -->
-                    <div class="musicEntryText">
-                        <!-- date -->
-                            <div style="display: block; width: 100%; height: 0%; text-align: end; line-height: 0.9;">` + musicEntries[x].date + `</div>
-                        <!-- alias -->
-                            <div style="padding-bottom: 0.5%; justify-content: center; height: 30%;">
-                                <div style="width: 100%; font-size: 110%; text-align: start;">`;
-                                
-        // 2.1 ) Alias (Which Part Is First?)
-        if (musicEntries[x].collabType == "Feature" || musicEntries[x].collabType == "Band") {
-            entry += musicEntries[x].alias2; }
-        else {
-            entry += musicEntries[x].alias; }
-        
-        // 2.2 ) Alias (Which Part Is Second?)
-        if (musicEntries[x].collabType == "Feature") {
-            entry += `, ` + musicEntries[x].alias; }
-        else if (musicEntries[x].type == "Cover") {
-            entry += ` (Originally by ` + musicEntries[x].alias2 + `)`;  }
-        else if (musicEntries[x].collabType == "Team") {
-            entry += `, ` + musicEntries[x].alias2 }
-        
-        entry += `</div></div>`;
-        
-        // 3 ) Title (also All The Same)
-        entry += `
-            <!-- title -->
-            <div style="padding-bottom: 0.5%;">
-                <div style="font-size: 210%; line-height: 0.8em; margin-left: -0.2%;">` +
-                    musicEntries[x].title + `
-                </div>
-            </div>`;
+        // title time
+        entry +=
+            musicEntryStructure[5] +
+                musicEntries[x].title +
+            musicEntryStructure[6];
             
-        // 4 ) Type N' Tags
-        entry += `
-            <!-- tags -->
-                <div style="flex-grow: 1; justify-content: flex-end;">
-                    <div>`;
-                    
-        if (musicEntries[x].type == "Mix") {
-          entry += musicEntries[x].mixType; }
-        else {
-          entry += musicEntries[x].type; }
+        // logic around type and tags
+        if (musicEntries[x].type == "Mix") { entry += musicEntries[x].mixType; }
+        else { entry += musicEntries[x].type; }
                     
         entry += ` `;
                     
-        if (musicEntries[x].type == "Mix") {
-            entry += `(` + musicEntries[x].alias2 + `)`; }
-        
-        if (musicEntries[x].tags != ``) {
-            entry += ` // `;
-        }
-        entry += musicEntries[x].tags + `</div></div></div></div></a></div>`;
+        if (musicEntries[x].type == "Mix") { entry += `(` + musicEntries[x].alias2 + `)`; }
+        if (musicEntries[x].tags != ``) { entry += ` // `; }
+      
+        entry += 
+                musicEntries[x].tags +
+            musicEntryStructure[7];
         
         categoryKeys[musicEntries[x].type].content += entry;
         categoryKeys.all.content += entry;
@@ -2609,6 +2626,7 @@ function compileMusicEntries(type) {
     
     }
     
+    // prints whatever category is requested by the function
     let element = document.getElementById("songsDump");
       switch (type) {
         case "favesList":
@@ -2631,18 +2649,32 @@ function compileMusicEntries(type) {
   
 }
 
+function aliasSubRoutine(number) {
+  // this part of the routine is in a separate routine for the sake of the "latest release" part of the index page to be able to use the same code as the main music compiler. 
+  // 2.1 ) Alias (Which Part Is First?)
+    switch (musicEntries[number].collabType) {
+      case "Feature":
+        alias += musicEntries[number].alias2; break;
+      case "Band":
+        alias += musicEntries[number].alias2; break;
+      default:
+        alias += musicEntries[number].alias; break;
+    }
+  // 2.2 ) Alias (Which Part Is Second?)
+    switch (musicEntries[number].collabType) {
+      case "Feature":
+        alias += `, ` + musicEntries[number].alias; break;
+      case "Cover":
+        alias += ` (Originally by ` + musicEntries[number].alias2 + `)`; break;
+      case "Team":
+        alias += `, ` + musicEntries[number].alias2; break;
+    }
+  }
+
 function latestRelease() {
   document.getElementById("latestReleaseImage").src = musicEntries[0].image;
   document.getElementById("latestReleaseTitle").innerHTML = musicEntries[0].title;
-  document.getElementById("latestReleaseAlias").innerHTML = musicEntries[0].alias;
+  aliasSubRoutine(0);
+  document.getElementById("latestReleaseAlias").innerHTML = alias;
   document.getElementById("latestReleaseLink").href = musicEntries[0].link;
 }
-
-  
-  
-  
-  
-  
-  
-  
-  
