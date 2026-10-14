@@ -36,7 +36,6 @@ const listenToEntries = [
 ];
 
 function updateCompileIndex() {
-  debugger;
   let update = "";
   let dateSplit = "";
   let dateFormatted = "";
@@ -53,8 +52,7 @@ function updateCompileIndex() {
 }
 
 function listenToLatest() {
-  debugger;
-  document.getElementById("listenToImage").style.backgroundImage = `url("` += listenToEntries[0].image += `")`;
+  document.getElementById("listenToImage").style.backgroundImage = `url(` + listenToEntries[0].image; + `)`;
   document.getElementById("listenToTitle").innerHTML = listenToEntries[0].title;
   document.getElementById("listenToAlias").innerHTML = listenToEntries[0].alias;
   document.getElementById("listenToLink").href = listenToEntries[0].link;
