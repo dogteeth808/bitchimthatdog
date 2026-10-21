@@ -16,6 +16,12 @@ const updateEntries = [
 {date:"2026 10 13", text:`"Art" button now goes to a rudimentary proof of concept. Click on the painting to go to the old site's art page!` },
 ];
 const listenToEntries = [
+  { link:`https://soundcloud.com/chances-3/just-dance-333`, image:`https://i1.sndcdn.com/artworks-dzhyBy7Sno7SYZuB-CMANhw-t500x500.png`,
+    date:`2026 10 21`, alias: `chance`, title:`just dance <3` },
+  
+  { link:`https://soundcloud.com/sugarpit/29af7602-2ecf-4bac-8347-caf933775445`, image:`https://i1.sndcdn.com/artworks-zeX3vqTBIDSTnLPg-zoMNcQ-t500x500.png`,
+    date:`2026 10 17`, alias: `Sugar Pit`, title:`MY MORNING ROUTINE` },
+  
   { link:`https://soundcloud.com/petalsupply/anyway-heres-1`, image:`https://i1.sndcdn.com/artworks-hLbZFhaConjks4fU-fNLPOQ-t500x500.jpg`,
     date:`2026 10 13`, alias: `Petal Supply, umru, Himera, trndytrndy`, title:`1` },
   
