@@ -16,6 +16,9 @@ const updateEntries = [
 {date:"2026 10 13", text:`"Art" button now goes to a rudimentary proof of concept. Click on the painting to go to the old site's art page!` },
 ];
 const listenToEntries = [
+  { link:`https://soundcloud.com/flatroomvr/kill-your-competitor`, image:`https://i1.sndcdn.com/artworks-fjipwpOy4kR7nZRY-AW2WRQ-t500x500.jpg`,
+    date:`2026 10 22`, alias: `flatroom !!`, title:`KILL YOUR COMPETITOR` },
+  
   { link:`https://soundcloud.com/chances-3/just-dance-333`, image:`https://i1.sndcdn.com/artworks-dzhyBy7Sno7SYZuB-CMANhw-t500x500.png`,
     date:`2026 10 21`, alias: `chance`, title:`just dance <3` },
   
