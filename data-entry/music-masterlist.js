@@ -47,6 +47,34 @@ const musicEntries = [
  //},
 
 {
+   link:`https://soundcloud.com/mynnteatwo/how-we-feelin-1`,
+   image:`https://i1.sndcdn.com/artworks-aAruBaY1qI5zv0om-yK1s3g-t500x500.png`,
+   title:`how we feelin`,
+   type:`Beat Battle`,
+   mixType:``,
+   collabType:``,
+   alias2:``,
+   alias:`mynntea`,
+   fave:`yes`,
+   tags:`political vent track`,
+   date:`10/25/2026`
+ },
+  
+{
+   link:`https://soundcloud.com/mynnteatwo/2thesound`,
+   image:`https://i1.sndcdn.com/artworks-ZyFByYuJ9W1HO5Ov-F5VXZg-t500x500.png`,
+   title:`2thesound`,
+   type:`Beat Battle`,
+   mixType:``,
+   collabType:``,
+   alias2:``,
+   alias:`mynntea`,
+   fave:`no`,
+   tags:`all stock`,
+   date:`10/17/2026`
+ },
+  
+{
    link:`https://soundcloud.com/sleepyzone/dogteeth-eris-mirror-raingirl-t4teeth-lostfound-28`,
    image:`https://i1.sndcdn.com/artworks-AjzGbSMjX8VoKndG-KJG7Lg-t500x500.jpg`,
    title:`lost+found`,
