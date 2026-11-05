@@ -161,6 +161,7 @@
             
             <!-- scrolly!!! -->
             <div id="updatesBox" class="scrolly">
+                <div class="framey update"><span class="updateTimestamp"> 11/05/2026</span><span class="updateText">Tweaked the spotlight page for the first time, also did some basic maintenance</span></div><div class="framey update"><span class="updateTimestamp"> 10/13/2026</span><span class="updateText">"Art" button now goes to a rudimentary proof of concept. Click on the painting to go to the old site's art page!</span></div><div class="framey update"><span class="updateTimestamp"> 10/04/2026</span><span class="updateText">Happy October! I now have all my main links on here, a "Listen To" section for the song i've been looping most recently, changed how the buttons work, and added a disclaimer that remembers that you already clicked it!</span></div><div class="framey update"><span class="updateTimestamp"> 09/21/2026</span><span class="updateText">Buttons are now not just me a billion times. A lot more units are based on VH. New "keyboard" images beside Music and Blog on the index, and some experimental texturing on the music page!</span></div><div class="framey update"><span class="updateTimestamp"> 09/15/2026</span><span class="updateText">Category buttons on music page work properly! The "latest release" section on this page works too! Basically all of the music page infrastructure shit is done. All design from this point on! Should be able to reuse some of that for the blog too, which is also exciting. Yippee!</span></div><div class="framey update"><span class="updateTimestamp"> 08/24/2026</span><span class="updateText">HUGE one today!!! A rudimentary version of the music section is online. I wrote some JavaScript to turn a list of data into a list of clickable song entries! And I can change the type of list it generates in no time at all! Go me!!!</span></div><div class="framey update"><span class="updateTimestamp"> 08/19/2026</span><span class="updateText">Followed  <a href="https://www.youtube.com/watch?v=p1QU3kLFPdg">this lovely tutorial</a> to get this moved to github pages on my custom domain!!! exciting developments</span></div><div class="framey update"><span class="updateTimestamp"> 08/18/2026</span><span class="updateText">Added the "section icons" to the "& More!" section! It's been a hassle designing a shape that I think will work, but this current interation seems workable with maybe a lil background asset :3</span></div><div class="framey update"><span class="updateTimestamp"> 08/07/2026</span><span class="updateText">Added the other titles as well as the background to the test draft.</span></div><div class="framey update"><span class="updateTimestamp"> 08/06/2026</span><span class="updateText">Big one today! Over the past couple days I've compiled a fun image collage for the "about" section, and now it's actually on the website! Yippee! So many PNGs oh my great gravy.</span></div><div class="framey update"><span class="updateTimestamp"> 07/30/2026</span><span class="updateText">Added the themes to the main page! Look over there! -></span></div><div class="framey update"><span class="updateTimestamp"> 07/28/2026</span><span class="updateText">Decided to make this updates box into an array of objects as well! Hello from updates.js!</span></div><div class="framey update"><span class="updateTimestamp"> 07/27/2026</span><span class="updateText">Learned about generating html code from an array of objects! Primitive version of the eventual "music database" has been created.</span></div><div class="framey update"><span class="updateTimestamp"> 07/26/2026</span><span class="updateText">Took my first real dive into JavaScript today. It was hard and it hurt my head but I have a concept for a "themes" framework! <a href="/javahell/javahell">(see here)</a> Should not be too hard to implement into the homepage.</span></div><div class="framey update"><span class="updateTimestamp"> 07/25/2026</span><span class="updateText">Played around with the category boxes. This shit is hard! But there's some neat stuff anyway</span></div><div class="framey update"><span class="updateTimestamp"> 07/24/2026</span><span class="updateText">Added the Updates section! Wowie! How sick is that.</span></div>
             </div>
             <!-- cool fade -->
             <div class="framey fadey" style="background-image: linear-gradient(to bottom, rgba(0,0,0,0), var(--updatesbg));">
@@ -195,21 +196,23 @@
               
               <!-- Track Spotlight -->
               <div class="framey paddedframe" style="padding: 1vh; gap: 1vh; height: 58%; flex-direction: row;">
+                
                 <!-- Track Image -->
-                <div class="framey" style="width: calc(100% / 3); background: green; aspect-ratio: 1 / 1;">
-                  <img id="latestReleaseImage" src="/assets/squarecovers/trustfall.jpg" style="display: block;">
+                <div data-brackets-id="6193" class="framey" style="width: calc(100% / 3); background: green; aspect-ratio: 1 / 1;">
+                  <img data-brackets-id="6194" id="latestReleaseImage" src="https://i1.sndcdn.com/artworks-Z9QkbgFH71ek5l4z-dimKlg-t500x500.png" style="display: block;">
                 </div>
                 <!-- Track Info -->
-                <div class="framey" style="flex-direction: column; flex-grow: 1; width: 60%;">
+                <div data-brackets-id="6195" class="framey" style="flex-direction: column; flex-grow: 1; width: 60%;">
                   
-                  <div style="flex-grow: 3; text-overflow: ellipsis; overflow-x: hidden; background-color: rgba(255,255,255,0.0); display: flex; align-items: flex-start; justify-content: space-evenly; flex-direction: column; padding-bottom: 5px; width: 100%;">
-                    <h1 id="latestReleaseTitle" style="text-overflow: ellipsis;">GRILLMASTER2K</h1>
-                    <h2 id="latestReleaseAlias" style="overflow: hidden; text-overflow: ellipsis;">dogteeth</h2>
+                  <div data-brackets-id="6196" style="flex-grow: 3; text-overflow: ellipsis; overflow-x: hidden; background-color: rgba(255,255,255,0.0); display: flex; align-items: flex-start; justify-content: space-evenly; flex-direction: column; padding-bottom: 5px; width: 100%;">
+                    <h1 data-brackets-id="6197" id="latestReleaseTitle" style="text-overflow: ellipsis;">awful</h1>
+                    <h2 data-brackets-id="6198" id="latestReleaseAlias" style="overflow: hidden; text-overflow: ellipsis;">mynntea</h2>
                   </div>
-                  <div class="framey" style="align-items: center; border-top: var(--typicalDividerWidth) solid var(--genericborder); border-radius: 0px; flex-grow: 2; text-wrap: nowrap; justify-content: flex-start;">
-                    <a target=_blank id="latestReleaseLink" href="https://soundcloud.com/4kcarpet" style="font-size: 1.75vh;"><b>stream on <span style="margin: auto; color: #f50; display: inline-block; filter: drop-shadow(1px 1px 0.5px #000); font-size: 1.1em; transform: rotate(-2deg);">soundcloud</span></b></a>
+                  <div data-brackets-id="6199" class="framey" style="align-items: center; border-top: var(--typicalDividerWidth) solid var(--genericborder); border-radius: 0px; flex-grow: 2; text-wrap: nowrap; justify-content: flex-start;">
+                    <a data-brackets-id="6200" target="_blank" id="latestReleaseLink" href="https://soundcloud.com/mynnteatwo/awful" style="font-size: 1.75vh;"><b data-brackets-id="6201">stream on <span data-brackets-id="6202" style="margin: auto; color: #f50; display: inline-block; filter: drop-shadow(1px 1px 0.5px #000); font-size: 1.1em; transform: rotate(-2deg);">soundcloud</span></b></a>
                   </div>
                 </div>
+              
               </div>
               
             </div>
