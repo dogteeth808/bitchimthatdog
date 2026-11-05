@@ -1,11 +1,49 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-us">
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Page</title>
-    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+    <title>music // ♫⋆｡♪ ₊˚♬ﾟ.</title>
+    <link href="/newstyley.css" rel="stylesheet" type="text/css" media="all">
+    <link href="/assets/icons/favicon.png" rel="icon" type="text/css">
   </head>
-  <body>
+  <body onload="compileMusicEntries();" style="overflow: hidden;">
+  
+  <div style="display: flex; height: 100vh;">
+  
+    <!-- 1 ( our main 4:3 viewport) -->
+    <div class="framey pageframe" style="flex-direction: row; height: 87vh; border-radius: 5%; color: rgba(0,0,0,0); background-image: url(/assets/backgrounds/plasticTexture4.jpg); background-color: rgb(254,78,126);">
+    <div class="funborders" style="height: 10%; left: -0.4%; top: -4.7%; width: 101%; border-left: 0; border-right: 0; border-bottom: 0;"></div>
+    <div class="funborders" style="width: 10%; left: -5%; height: 100%; border-top: 0;  border-right: 0; border-bottom: 0;"></div>
+    <div class="funborders" style="width: 10%; left: 95%; height: 100%; border-top: 0; border-left: 0; border-bottom: 0;"></div>
+    <div class="funborders" style="height: 10%; left: -0.4%; top: 94.5%; width: 101%; border-top: 0; border-left: 0; border-right: 0;"></div>
+        
+        <!-- a shell! (helps shape the general fun ipad shape) -->
+        <div style="flex-direction: row; padding: 1vh; gap: 5vh; display: flex; align-items: flex-end;">
+
+            <!-- 2 ( Nav Bar ) -->
+            <div class="framey gapy" style="height: 98%; width: 20%; flex-direction: column; background-color: rgb(156, 156, 156, 0.0); align-items: center; justify-content: center; margin: auto;">
+                <button onclick="compileMusicEntries(`favesList`);" class="plasticButton">My Faves</button>
+                <button onclick="compileMusicEntries(`originalList`);" class="plasticButton">Originals</button>
+                <button onclick="compileMusicEntries(`collabList`);" class="plasticButton">Collabs</button>
+                <button onclick="compileMusicEntries(`setList`);" class="plasticButton">Sets</button>
+                <button onclick="compileMusicEntries(`coverList`);" class="plasticButton">Covers</button>
+                <button onclick="compileMusicEntries(`beatBattleList`);" class="plasticButton">Beat Battles</button>
+                <button onclick="compileMusicEntries(`mixList`);" id="mixesButton" class="plasticButton">Mixes </button>
+            </div>
+
+            <!-- a shell! (this is meant to give the js the ability to reload which ID is being used) -->
+            <div id="musicList-Rewriter" style="width: 78%; height: 100%; display: flex; flex-direction: column; background-color: rgb(255, 255, 255, 0.0); justify-content: center; z-index: 5;">
+                
+                <div style="position: absolute; background-image: url(/assets/backgrounds/screenTexture2.jpg); right: 1.6%; width: 73.4%; height: 91%; z-index: 5; opacity: 0.07; pointer-events: none;"></div>
+
+                </div></div>
+
+        </div>
+        
+    </div>
+  
+  <script src="/data-entry/music-masterlist.js"></script>
+  <!-- <script src="/javahell/scripts/oneko.js"></script> -->
   </body>
 </html>

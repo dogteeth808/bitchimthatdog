@@ -47,6 +47,34 @@ const musicEntries = [
  //},
 
 {
+   link:`https://soundcloud.com/mynnteatwo/awful`,
+   image:`https://i1.sndcdn.com/artworks-Z9QkbgFH71ek5l4z-dimKlg-t500x500.png`,
+   title:`awful`,
+   type:`Beat Battle`,
+   mixType:``,
+   collabType:``,
+   alias2:``,
+   alias:`mynntea`,
+   fave:`yes`,
+   tags:`Cover (fraxiom - awful)`,
+   date:`11/01/2026`
+ },
+
+{
+   link:`https://soundcloud.com/mynnteatwo/the-scarecrow`,
+   image:`https://i1.sndcdn.com/artworks-roFngY7QqXHQEnPP-a0eAvw-t500x500.png`,
+   title:`the scarecrow`,
+   type:`Original`,
+   mixType:``,
+   collabType:``,
+   alias2:``,
+   alias:`mynntea`,
+   fave:`no`,
+   tags:`happy halloweeeen >:)`,
+   date:`10/31/2026`
+ },
+  
+{
    link:`https://soundcloud.com/mynnteatwo/how-we-feelin-1`,
    image:`https://i1.sndcdn.com/artworks-aAruBaY1qI5zv0om-yK1s3g-t500x500.png`,
    title:`how we feelin`,

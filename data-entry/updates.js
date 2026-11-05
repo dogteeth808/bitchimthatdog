@@ -14,8 +14,12 @@ const updateEntries = [
 {date:"2026 09 21", text:`Buttons are now not just me a billion times. A lot more units are based on VH. New "keyboard" images beside Music and Blog on the index, and some experimental texturing on the music page!` },
 {date:"2026 10 04", text:`Happy October! I now have all my main links on here, a "Listen To" section for the song i've been looping most recently, changed how the buttons work, and added a disclaimer that remembers that you already clicked it!` },
 {date:"2026 10 13", text:`"Art" button now goes to a rudimentary proof of concept. Click on the painting to go to the old site's art page!` },
+{date:"2026 11 05", text:`Tweaked the spotlight page for the first time, also did some basic maintenance` },
 ];
 const listenToEntries = [
+  { link:`https://www.youtube.com/watch?v=p4owhYtVIE0`, image:`https://i1.sndcdn.com/artworks-EsrnYKFRPuBs-0-t500x500.jpg`,
+    date:`2026 11 05`, alias: `Everything Everything`, title:`Poison Pop` },
+  
   { link:`https://soundcloud.com/4kcarpet/chance-1`, image:`https://i1.sndcdn.com/artworks-IKCeGJgqkQ0Abrac-m8zc9A-t500x500.jpg`,
     date:`2026 10 27`, alias: `passengerprincess`, title:`CHANCE` },
   

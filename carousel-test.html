@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>music // ♫⋆｡♪ ₊˚♬ﾟ.</title>
+    <link href="/newstyley.css" rel="stylesheet" type="text/css" media="all">
+    <link href="/assets/icons/favicon.png" rel="icon" type="text/css">
+      <style>
+          div { 
+            background-color: red; }
+          .horizontal-scroll-wrapper { 
+            width: 100vh; height: 100vw;
+            overflow-y: auto; overflow-x: hidden; 
+            transform: rotate(-90deg) translateY(-49.4vw) translateX(-50.5vh); transform-origin: right top; padding-top: 50vw; margin: 0; padding: 0;
+          }
+          .horizontal-scroll-wrapper > div {
+            background-color: blue; 
+            width: 50vw; height: 100vh; box-sizing: border-box;
+            text-align: center;
+            transform: rotate(90deg); transform-origin: right top;
+          }
+          </style>
+  </head>
+  <body onload="compileMusicEntries();" style="overflow: hidden;">
+
+<div class="horizontal-scroll-wrapper squares">
+    <div>item 1</div>
+    <div>item 2</div>
+    <div>item 3</div>
+    <div>item 4</div>
+    <div>item 5</div>
+    <div>item 6</div>
+    <div>item 7</div>
+    <div>item 8</div>
+    <div>item 9</div>
+</div>
+
+  
+  <script src="/data-entry/music-masterlist.js"></script>
+  <!-- <script src="/javahell/scripts/oneko.js"></script> -->
+  </body>
+</html>
