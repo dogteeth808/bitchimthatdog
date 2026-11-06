@@ -47,6 +47,20 @@ const musicEntries = [
  //},
 
 {
+   link:`https://www.youtube.com/watch?v=WXUjnIAjA0Q`,
+   image:`https://i1.sndcdn.com/artworks-jxE5SN6N7JJUu7j7-OUqUWA-t500x500.png`,
+   title:`dogteeth @ BUELFEST 11/05/2026`,
+   type:`Set`,
+   mixType:`Mashup`,
+   collabType:``,
+   alias2:``,
+   alias:`dogteeth`,
+   fave:`yes`,
+   tags:`Mashup // Buelfest`,
+   date:`11/05/2026`
+ },
+
+{
    link:`https://soundcloud.com/mynnteatwo/awful`,
    image:`https://i1.sndcdn.com/artworks-Z9QkbgFH71ek5l4z-dimKlg-t500x500.png`,
    title:`awful`,
