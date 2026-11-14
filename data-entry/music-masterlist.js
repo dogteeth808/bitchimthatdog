@@ -47,6 +47,20 @@ const musicEntries = [
  //},
 
 {
+   link:`https://soundcloud.com/mynnteatwo/flesh-in-the-gears`,
+   image:`https://i1.sndcdn.com/artworks-cHehuptsz8su4YIw-EbP6Dw-t500x500.jpg`,
+   title:`flesh in the gears`,
+   type:`Beat Battle`,
+   mixType:``,
+   collabType:``,
+   alias2:``,
+   alias:`mynntea`,
+   fave:`no`,
+   tags:`"make something slippery"`,
+   date:`11/13/2026`
+ },
+  
+{
    link:`https://www.youtube.com/watch?v=WXUjnIAjA0Q`,
    image:`https://i1.sndcdn.com/artworks-jxE5SN6N7JJUu7j7-OUqUWA-t500x500.png`,
    title:`dogteeth @ BUELFEST 11/05/2026`,

@@ -17,6 +17,9 @@ const updateEntries = [
 {date:"2026 11 05", text:`Tweaked the spotlight page for the first time, also did some basic maintenance` },
 ];
 const listenToEntries = [
+  { link:`https://soundcloud.com/sixwing-music/wolfgirl-future-paradise`, image:`https://i1.sndcdn.com/artworks-IxxBcn1Hb26X-0-t500x500.jpg`,
+    date:`2026 11 13`, alias: `sixwing, Kittenhouse`, title:`WOLFGIRL FUTURE PARADISE` },
+  
   { link:`https://www.youtube.com/watch?v=p4owhYtVIE0`, image:`https://i1.sndcdn.com/artworks-EsrnYKFRPuBs-0-t500x500.jpg`,
     date:`2026 11 05`, alias: `Everything Everything`, title:`Poison Pop` },
   
@@ -49,6 +52,13 @@ const listenToEntries = [
   
   { link:`https://soundcloud.com/lipcritic/jackpot`, image:`https://i1.sndcdn.com/artworks-Zht7B4MdHyrt-0-t500x500.jpg`,
     date:`2026 10 03`, alias: `Lip Critic`, title:`Jackpot` },
+];
+const spotlightEntries = [
+  { 
+    //top five videos, buelfest, beat battles 2026, wolfgirl princes angel
+    image:`https://i1.sndcdn.com/artworks-IxxBcn1Hb26X-0-t500x500.jpg`, link:`https://soundcloud.com/sixwing-music/wolfgirl-future-paradise`, 
+    date:`2026 11 13`,
+   alias: `sixwing, Kittenhouse`, title:`WOLFGIRL FUTURE PARADISE`, text:`` },
 ];
 
 function updateCompileIndex() {
