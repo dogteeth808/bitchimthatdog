@@ -47,6 +47,48 @@ const musicEntries = [
  //},
 
 {
+   link:`https://soundcloud.com/mynnteatwo/thetimeisnow`,
+   image:`https://i1.sndcdn.com/artworks-zUu9aHQDV4dk23Z4-Fo1DyA-t500x500.png`,
+   title:`thetimeisnow`,
+   type:`Beat Battle`,
+   mixType:``,
+   collabType:``,
+   alias2:``,
+   alias:`mynnteatwo`,
+   fave:`yes`,
+   tags:`"ruin the master"`,
+   date:`11/22/2026`
+ },
+
+{
+   link:`https://soundcloud.com/sleepyzone/dogteeth-bonuslife-3?in=sleepyzone/sets/chuzzle-tapes`,
+   image:`https://i1.sndcdn.com/artworks-LomZW0d0fbR1teEO-9e2y7A-t500x500.jpg`,
+   title:`BONUSLIFE`,
+   type:`Original`,
+   mixType:``,
+   collabType:``,
+   alias2:``,
+   alias:`dogteeth`,
+   fave:`no`,
+   tags:`sleepy.zone (Chuzzle Tapes)`,
+   date:`11/22/2026`
+ },
+
+{
+   link:`https://ultrapop.bandcamp.com/track/nanaimo-girl-like-me`,
+   image:`https://f4.bcbits.com/img/a2051751420_2.jpg`,
+   title:`nanaimo (girl like me)`,
+   type:`Original`,
+   mixType:``,
+   collabType:``,
+   alias2:``,
+   alias:`dogteeth`,
+   fave:`yes`,
+   tags:`Ultrapop`,
+   date:`11/22/2026`
+ },
+
+{
    link:`https://soundcloud.com/mynnteatwo/flesh-in-the-gears`,
    image:`https://i1.sndcdn.com/artworks-cHehuptsz8su4YIw-EbP6Dw-t500x500.jpg`,
    title:`flesh in the gears`,

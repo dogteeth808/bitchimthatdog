@@ -15,8 +15,12 @@ const updateEntries = [
 {date:"2026 10 04", text:`Happy October! I now have all my main links on here, a "Listen To" section for the song i've been looping most recently, changed how the buttons work, and added a disclaimer that remembers that you already clicked it!` },
 {date:"2026 10 13", text:`"Art" button now goes to a rudimentary proof of concept. Click on the painting to go to the old site's art page!` },
 {date:"2026 11 05", text:`Tweaked the spotlight page for the first time, also did some basic maintenance` },
+{date:"2026 11 24", text:`I'm cooler and gayer and more of a dog now. Plus I updated the spotlight again (and did general maintenance).` },
 ];
 const listenToEntries = [
+  { link:`https://soundcloud.com/t4teeth/tempest`, image:`https://i1.sndcdn.com/artworks-YOeNsCCx8cT3aEfS-Az7VGA-t500x500.png`,
+    date:`2026 11 24`, alias: `t4teeth`, title:`tempest` },
+  
   { link:`https://soundcloud.com/sixwing-music/wolfgirl-future-paradise`, image:`https://i1.sndcdn.com/artworks-IxxBcn1Hb26X-0-t500x500.jpg`,
     date:`2026 11 13`, alias: `sixwing, Kittenhouse`, title:`WOLFGIRL FUTURE PARADISE` },
   
